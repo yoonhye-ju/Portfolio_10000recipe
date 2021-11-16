@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>요리를 즐겁게-만개의 레시피-</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/font.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+
+  <link href="C:\Users\LINE\Desktop\윤혜주\★포트폴리오\21-11-15\img\pabicon.ico" rel="shortcut icon" type="image/x-icon">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    var currentScrollTop=0;
+      $(document).ready(function(){
+        scrollController();
+        $(window).scroll(function(){
+              scrollController();
+        });
+      });
+
+      function scrollController(){
+      currentScrollTop = $(window).scrollTop();
+          if(currentScrollTop > 71) {
+      $("header").addClass("fixed");
+      $("header a").addClass("txtCh");
+      $(".logo img").attr("src", "img/logo_white.png");
+                    }else{
+      $("header").removeClass("fixed");
+      $("header a").removeClass("txtCh");
+      $(".logo img").attr("src", "img/logo.png");
+            }
+      }
+      
+
+      function prev() {
+        $('.slide li:last').prependTo('.slide');
+        $('.slide').css('margin-left', -110);
+        $('.slide').stop().animate({ marginLeft: 0});
+      }
+
+      function next() {
+        $('.slide').stop().animate({ marginLeft: -110}, function () {
+          $('.slide li:first').appendTo('.slide');
+          $('.slide').css({ marginLeft: 0 });
+        });
+      }
+
+      $(function(){
+        $(".icon_right").click(function(){
+          prev();
+        });
+        $(".icon_left").click(function(){
+          next();
+          });
+      });
+
+
+
+</script>  
+</head>
+<body>
+  <header>
+    <div id="headerbackground">
+      <div class="header_top">
+          <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+          <nav class="menu">
+            <ul>
+              <li><a href="#">요리 레시피</a></li>
+              <li><a href="#">요리 클래스</a></li>
+              <li><a href="#">요리 매거진</a></li>
+              <li><a href="#">오늘의 요리</a></li>
+            </ul>
+          </nav>
+      </div>
+    </div>
+</header>
+
+<div id="main_background">
+  <div class="main">
+    <div class="maintext">
+      <h1>오늘은 뭐 먹을까?</h1>
+      <input type="text" id="search" class="search" placeholder="레시피 검색">
+      <div class="search_icon"><a href="#"><img src="img/icon_search.png" alt="icon_search"></a></div>
+    </div>
+
+    <div class="main_login_background">
+      <div class="main_login">
+        <a href="#" class="loginbox">
+          <img src="img/icon_bestcook.png" alt="icon_bestcook">
+          <h3>베스트 레시피</h3>
+          <h4>화제의 레시피 구경하기!</h4>
+        </a>
+        <a href="#" class="loginbox">
+          <img src="img/icon_login.png" alt="icon_login">
+          <h3>로그인</h3>
+          <h4>나만의 레시피 등록하기!</h4>
+        </a>
+        <a href="#" class="loginbox">
+          <img src="img/icon_video.png" alt="icon_video">
+          <h3>동영상 레시피</h3>
+          <h4>동영상으로 레시피 배우기!</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="recipe_index_background">
+  <div class="recipe_index">
+    <h2>레시피 찾기</h2>
+      <div class="recipe_iconbox">
+        <img src="img/icon_left.png" alt="icon_left" class="icon_left">
+
+        <div id="slidewrap">
+          <ul class="slide">
+              <li class="list">
+                <img src="img/icon_recipe_all.png" alt="icon_recipe_all">
+                <p>전체</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_sidedish.png" alt="icon_recipe_sidedish">
+                <p>메인반찬</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_subdish.png" alt="icon_recipe_subdish">
+                <p>밑반찬</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_jjigae.png" alt="icon_recipe_jjigae">
+                <p>찌개</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_guk.png" alt="icon_recipe_guk">
+                <p>국/탕</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_nuddle.png" alt="icon_recipe_nuddle">
+                <p>국수</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_bread.png" alt="icon_recipe_bread">
+                <p>빵</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_dessert.png" alt="icon_recipe_dessert">
+                <p>간식</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_salade.png" alt="icon_recipe_salade">
+                <p>샐러드</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_drinkfood.png" alt="icon_recipe_drinkfood">
+                <p>술안주</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_babyfood.png" alt="icon_recipe_babyfood">
+                <p>이유식</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_fried.png" alt="icon_recipe_fried">
+                <p>튀김</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_steam.png" alt="icon_recipe_steam">
+                <p>찜</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_fruit.png" alt="icon_recipe_fruit">
+                <p>과일</p>
+              <li class="list">
+                <img src="img/icon_recipe_cookies.png" alt="icon_recipe_cookies">
+                <p>과자</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_milk.png" alt="icon_recipe_milk">
+                <p>유제품</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_vegetable.png" alt="icon_recipe_vegetable">
+                <p>채소</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_seafood.png" alt="icon_recipe_seafood">
+                <p>해산물</p>
+              <li class="list">
+                <img src="img/icon_recipe_meat.png" alt="icon_recipe_meat">
+                <p>육류</p>
+              </li>
+              <li class="list">
+                <img src="img/icon_recipe_tea.png" alt="icon_recipe_tea">
+                <p>차/음료</p>
+              </li>
+          </ul>       
+      </div>
+
+      <img src="img/icon_right.png" alt="icon_right" class="icon_right">
+    
+    </div>
+  </div>
+</div>
+
+
+
+<div id="bestcook_background">
+  <div class="bestcook">
+    <h2>베스트 랭킹 10</h2>
+    <span>2021.10.31-2021.11.30</span>
+    <form>
+      <span><input type="date" value="2021-11-30" min="2021-01-01" max="2021-11-30"></span>
+      <span><input type="date" value="2021-11-30" min="2021-01-01" max="2021-11-30"></span>
+    </form>
+    <div class="bestcook_box">      
+      <div class="bestcooking">1</div>
+      <div class="bestcooking">2</div>
+      <div class="bestcooking">3</div>
+      <div class="bestcooking">4</div>
+      <div class="bestcooking">5</div>
+      <div class="bestcooking">6</div>
+      <div class="bestcooking">7</div>
+      <div class="bestcooking">8</div>
+      <div class="bestcooking">9</div>
+      <div class="bestcooking">10</div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
