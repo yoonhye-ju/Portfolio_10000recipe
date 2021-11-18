@@ -53,7 +53,7 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 #bestcook_background{width: 100%; height: 130px; background-color: rgb(250, 250, 250);}
-.bestcook{width: 1200px; height: 130px; background-color: rgb(250, 250, 250);}
+.bestcook{width: 1200px; height: 130px; background-color: rgb(250, 250, 250); margin: 0 auto;}
 .bestcook h2{padding-top: 70px; padding-left: 50px; display: inline-block;}
 .bestcook .date{padding-top: 70px; padding-left: 5px;}
 
@@ -64,7 +64,7 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 #ranking_background{width: 100%; height: 590px; background-color: rgb(250, 250, 250);}
-.ranking_topline{width: 1100px; height: 10px; border-top: 4px solid #74b243; }
+.ranking_topline{width: 1100px; height: 10px; border-top: 4px solid #74b243; margin: 0 auto;}
 .ranking_box{width: 1200px; height: 590px; background-color: rgb(250, 250, 250); margin: 0 auto; position: relative;}
 .ranking_box>img{position: absolute; top: 50px; left: 290px; z-index: 3;}
 
@@ -95,3 +95,10 @@ box-shadow: 0 0 50px rgb(223, 223, 223); position:relative;}
 .ranking_sub_box p{padding: 10px 15px;}
 .ranking_sub_box .author{width: 35px; height: 35px; border-radius: 50px; margin: 5px 15px; box-shadow: 0 0 2px #666;}
 .ranking_sub_box span{font-size: 13px; color: #666; position: absolute; margin-top: 11px; margin-left: -5px;}
+
+
+#promotion_background{width: 100%; height: 280px; background-color: blueviolet; margin-top: 50px; background-image: url(../img/promotion.jpg); background-position: center; background-size: cover;}
+.promotion_box{width: 1200px; height: 280px; background-color: burlywood; margin: 0 auto;}
+
+#chef_background{width: 100%; height: 600px; background-color:cornflowerblue;}
+.chef_box{width: 1200; height: 600px; background-color:darksalmon; margin: 0 auto;}
