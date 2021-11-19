@@ -5,7 +5,7 @@
 ul, ol, li{list-style: none;}
 a{text-decoration: none; color:#666;}
 
-body{background-color: #fefffe; font-family: 'Noto Sans KR', sans-serif;}
+body{background-color: rgb(250, 250, 250); font-family: 'Noto Sans KR', sans-serif;}
 
 header{width: 100%; height: 70px; position:absolute; line-height:50px; transition: 0.5s ease-in-out; z-index: 10;}
 header.fixed{background: #74b243; position:fixed;}
@@ -20,12 +20,18 @@ header.fixed{background: #74b243; position:fixed;}
 
 #main_background{width: 100%; height: 937px; background-image: url(../img/mainfood_black.jpg); background-position: center; background-size: cover;}
 .main{width: 1903px; height: 937px; margin: 0 auto;}
-.maintext{text-align: center; padding: 330px 0 0 0; display: flex; justify-content: center; align-content: center; align-items:center; flex-direction: column;}
-.maintext h1{color: white; letter-spacing: 15px; font-size: 40px; margin: 0 0 0 -15px;}
-.maintext .search{width: 500px; height: 50px; border: none; border-radius: 20px; opacity: 0.6; font-size: 18px; margin: 30px 0 0 -50px; padding-left: 15px;}
+.maintext{text-align: center; padding: 310px 0 0 0; display: flex; justify-content: center; align-content: center; align-items:center; flex-direction: column;}
+.maintext h1{color: white; letter-spacing: 15px; font-size: 48px; margin: 0 0 0 -15px; font-family: 'Sunflower', sans-serif;}
+.maintext .search{width: 500px; height: 50px; border: none; border-radius: 20px; opacity: 0.6; font-size: 18px; margin: 40px 0 0 -50px; padding-left: 15px;}
 .search:focus{outline: none;}
 .search_icon{margin: -50px 0 0 530px; display: inline-block;}
-.search_icon:hover{transform:scale(1.1); transition: all 0.3 ease-in-out;}
+
+
+.notice{width:100%; height:50px; overflow:hidden; margin-top: 10px;}
+.rolling{position:relative; width:1200px; height:auto;}
+.rolling li{width:100%; height:50px; line-height:50px; margin-left: 550px;}
+.rolling li a{color:white;}
+.word{color:white; position: absolute; margin-left: 790px; font-size: 16.5px; margin-top: 12px; font-family: 'Noto Sans KR', sans-serif;}
 
 
 .main_login_background{width: 100%; height: 200px; margin-top: 180px;}
@@ -98,7 +104,23 @@ box-shadow: 0 0 50px rgb(223, 223, 223); position:relative;}
 
 
 #promotion_background{width: 100%; height: 280px; background-color: blueviolet; margin-top: 50px; background-image: url(../img/promotion.jpg); background-position: center; background-size: cover;}
-.promotion_box{width: 1200px; height: 280px; background-color: burlywood; margin: 0 auto;}
+.promotion_box{width: 1200px; height: 280px; margin: 0 auto; padding: 50px;}
+.promotion_box h3{color: white; margin: 10px 55px; font-size: 23px; letter-spacing: -2px;}
+.promotion_box h1{color: white; font-size: 35px; line-height: 28px; letter-spacing: -2px;
+margin: 20px 50px;}
+.promotion_box h1 span{color: gold; font-size: 43px;}
+.promotion_box a div{float: left; width: 200px; height: 50px; margin: 10px 55px; border-radius: 50px; background-color: orangered; text-align: center; padding: 13px; color: white; opacity: 1;}
+.promotion_box a div:hover{opacity: 0.8;}
 
-#chef_background{width: 100%; height: 600px; background-color:cornflowerblue;}
-.chef_box{width: 1200; height: 600px; background-color:darksalmon; margin: 0 auto;}
+
+#chef_background{width: 100%; height: 600px;}
+.chef_box{width: 1200px; height: 600px;margin: 0 auto;}
+.chef_box h2{padding-left: 50px; padding-top: 50px}
+.chef_box h4{padding: 10px 50px; color: #666;}
+.chef{width: 1100px; height: 400px; display:flex; flex-direction: row wrap; margin-top: 50px;}
+.chef div{width: 250px; height: 350px; border-radius: 10px; background-size: cover; background-position: center; box-shadow: 0 0 30px rgb(218, 218, 218); position: relative;}
+
+.anibox:nth-of-type(1){width: 250px; height: 50px; background-color: darkred; position: absolute;z-index: 1; margin-top: 300px;}
+.anibox:nth-of-type(2){width: 250px; height: 50px; background-color: darkorange; position: absolute;z-index: 1; margin-top: 300px;}
+.anibox:nth-of-type(3){width: 250px; height: 50px; background-color: darkcyan; position: absolute;z-index: 1; margin-top: 300px;}
+.anibox:nth-of-type(4){width: 250px; height: 50px; background-color: darkslategrey; position: absolute;z-index: 1; margin-top: 300px;}

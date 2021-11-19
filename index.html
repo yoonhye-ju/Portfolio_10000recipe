@@ -11,9 +11,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" 
+  rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
 
+  
   <link href="img\pabicon.ico" rel="shortcut icon" type="image/x-icon">
 
 
@@ -64,6 +69,27 @@
       });
 
 
+        $(document).ready(function () {
+          var height = $(".notice").height();
+          var num = $(".rolling li").length;
+          var max = height * num;
+          var move = 0;
+          function noticeRolling() {
+            move += height;
+            $(".rolling").animate({ "top": -move }, 600, function () {
+              if (move >= max) {
+                $(this).css("top", 0);
+                move = 0;
+              };
+            });
+          };
+          noticeRollingOff = setInterval(noticeRolling, 3000);
+          $(".rolling").append($(".rolling li").first().clone());
+  
+          $(".rolling_li")(function () {
+            noticeRollingOff = setInterval(noticeRolling, 3000);
+          });
+        });
 
 </script>  
 </head>
@@ -91,6 +117,19 @@
       <input type="text" id="search" class="search" placeholder="레시피 검색">
       <div class="search_icon"><a href="index.html" target="_blank"><img src="img/icon_search.png" alt="icon_search"></a></div>
     </div>
+
+    
+  <div class="notice">
+    <div class="word"><b>인기 검색어</b></div>
+    <ul class="rolling">
+      <li><a href="#">매운 오징어 볶음</a></li>
+      <li><a href="#">집들이 손님 음식</a></li>
+      <li><a href="#">백종원 오삼불고기</a></li>
+      <li><a href="#">김치볶음밥 레시피</a></li>
+      <li><a href="#">불닭소스 닭볶음탕</a></li>
+    </ul>
+  </div>
+
 
     <div class="main_login_background">
       <div class="main_login">
@@ -355,12 +394,38 @@
 
 
 <div id="promotion_background">
-  <div class="promotion_box">
+    <div class="promotion_box">
+      <h3>제 143회 만개의레시피 공모전</h3>
+      <h1><span>다양한 덮밥 요리</span> 레시피를 알려주세요</h1>
+      <a href="index.html"><div>공모전 참여하기 &gt;</div></a>
   </div>
 </div>
 
+<div id="extra"></div>
+
 <div id="chef_background">
   <div class="chef_box">
+    <h2>만개의 쉐프</h2>
+    <h4>전문 쉐프에게 요리를 배워보세요</h4>
+    <div class="chef">
+      <a href="#">
+        <div class="anibox">한식 전문가</div>
+        <div style="background-image:url(img/chef01.jpg)"></div>
+
+      </a>
+      <a href="#">
+        <div class="anibox">양식 전문가</div>
+        <div style="background-image:url(img/chef03.jpg)"></div>
+      </a>
+      <a href="#">
+        <div class="anibox">디저트 전문가</div>
+        <div style="background-image:url(img/chef04.jpg)"></div>
+      </a>
+      <a href="#">
+        <div class="anibox">중식 전문가</div>
+        <div style="background-image:url(img/chef02.jpg)"></div>
+      </a>
+    </div>
   </div>
 </div>
 
