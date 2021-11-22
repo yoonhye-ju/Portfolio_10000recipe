@@ -91,6 +91,29 @@
           });
         });
 
+
+          function prev() {
+            $('.honor_minibox:last').prependTo('.honor_minibox');
+            $('.honor_minibox').css('margin-left', -250);
+            $('.honorwrap').stop().animate({ marginLeft: 0 });
+          }
+
+          function next() {
+            $('.honorwrap_minibox').stop().animate({ marginLeft: -250 }, function () {
+              $('.honor_minibox:first').appendTo('.honorwrap');
+              $('.honorwrap').css({ marginLeft: 0 });
+            });
+          }
+
+          $(function () {
+            $(".honor_left").click(function () {
+              prev();
+            });
+            $(".honor_right").click(function () {
+              next();
+            });
+          });
+
 </script>  
 </head>
 <body>
@@ -408,26 +431,93 @@
     <h2>만개의 쉐프</h2>
     <h4>전문 쉐프에게 요리를 배워보세요</h4>
     <div class="chef">
-      <a href="#">
-        <div class="anibox">한식 전문가</div>
+      <a href="#">        
         <div style="background-image:url(img/chef01.jpg)"></div>
+        <div class="chef_textbox"><span>한식 전문 쉐프</span><img src="img/icon_circleright.png" alt="icon_circleright"></div>
+      </a>
 
-      </a>
       <a href="#">
-        <div class="anibox">양식 전문가</div>
         <div style="background-image:url(img/chef03.jpg)"></div>
+        <div class="chef_textbox"><span>양식 전문 쉐프</span><img src="img/icon_circleright.png" alt="icon_circleright"></div>
       </a>
+
       <a href="#">
-        <div class="anibox">디저트 전문가</div>
         <div style="background-image:url(img/chef04.jpg)"></div>
+        <div class="chef_textbox"><span>디저트 전문 쉐프</span><img src="img/icon_circleright.png" alt="icon_circleright"></div>
       </a>
+
       <a href="#">
-        <div class="anibox">중식 전문가</div>
         <div style="background-image:url(img/chef02.jpg)"></div>
+        <div class="chef_textbox"><span>일식 전문 쉐프</span><img src="img/icon_circleright.png" alt="icon_circleright"></div>
       </a>
     </div>
   </div>
 </div>
 
+
+<div id="honor_background">
+  <div class="honor_box">
+    <h2>추천수 <span>9999+</span> 명예의 전당!</h2>
+    <div class="honor_topline"></div>
+    <div class="honor">
+      <img src="img/icon_left.png" alt="icon_left" class="honor_left">
+      <img src="img/icon_right.png" alt="icon_right" class="honor_right">
+
+      <div class="honorwrap">
+        <div class="honor_minibox">
+          <div style="background-image: url(img/honorfood_01.jpg);">
+            <div class="honor_textbox">닭가슴살스테이크~ </br>십년째 만들어 먹는 양념 공유해요!</div>
+          </div>
+        </div>
+
+        <div class="honor_minibox">
+          <div style="background-image: url(img/honorfood_02.jpg);">
+            <div class="honor_textbox">간단한데 맛은 최고! </br>백종원 에그치즈토스트!</div>
+          </div>
+        </div>
+
+        <div class="honor_minibox">
+          <div style="background-image: url(img/honorfood_03.jpg);">
+            <div class="honor_textbox">크리스마스 홈파티엔 </br> 겨울제철 딸기 요거트~</div>
+          </div>
+        </div>
+
+        <div class="honor_minibox">
+          <div style="background-image: url(img/honorfood_04.jpg);">
+            <div class="honor_textbox">안먹는 나물 처리?</br> 5분만에 만드는 영양만점 비빔밥</div>
+          </div>
+        </div>
+
+        <div class="honor_minibox">
+          <div style="background-image: url(img/honorfood_05.jpg);">
+            <div class="honor_textbox">감바스가 번거롭지 않아요~</br>간단한 감바스 요리법! </div>
+          </div>
+        </div>
+
+        <div class="honor_minibox">
+          <div style="background-image: url(img/honorfood_06.jpg);">
+            <div class="honor_textbox">아침에 입맛 없는 나에게</br> 영양가득 토마토 야채 수프</div>
+          </div>
+        </div>
+
+        <div class="honor_minibox">
+          <div style="background-image: url(img/honorfood_07.jpg);">
+            <div class="honor_textbox">포만감 챙긴 다이어트 식단 올려봐요</br> 시리얼 유산균</div>
+          </div>
+        </div>
+
+        <div class="honor_minibox">
+          <div style="background-image: url(img/honorfood_08.jpg);">
+            <div class="honor_textbox">국물 없이 담백하게~</br> 반숙 치즈 라면</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+
+</footer>
 </body>
 </html>
