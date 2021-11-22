@@ -92,27 +92,27 @@
         });
 
 
-          function prev() {
-            $('.honor_minibox:last').prependTo('.honor_minibox');
-            $('.honor_minibox').css('margin-left', -250);
-            $('.honorwrap').stop().animate({ marginLeft: 0 });
-          }
+          // function prev() {
+          //   $('.honor_minibox:last').prependTo('.honor_minibox');
+          //   $('.honor_minibox').css('margin-left', -250);
+          //   $('.honorwrap').stop().animate({ marginLeft: 0 });
+          // }
 
-          function next() {
-            $('.honorwrap_minibox').stop().animate({ marginLeft: -250 }, function () {
-              $('.honor_minibox:first').appendTo('.honorwrap');
-              $('.honorwrap').css({ marginLeft: 0 });
-            });
-          }
+          // function next() {
+          //   $('.honorwrap_minibox').stop().animate({ marginLeft: -250 }, function () {
+          //     $('.honor_minibox:first').appendTo('.honorwrap');
+          //     $('.honorwrap').css({ marginLeft: 0 });
+          //   });
+          // }
 
-          $(function () {
-            $(".honor_left").click(function () {
-              prev();
-            });
-            $(".honor_right").click(function () {
-              next();
-            });
-          });
+          // $(function () {
+          //   $(".honor_left").click(function () {
+          //     prev();
+          //   });
+          //   $(".honor_right").click(function () {
+          //     next();
+          //   });
+          // });
 
 </script>  
 </head>
@@ -516,8 +516,19 @@
   </div>
 </div>
 
+<div id="extra"></div>
+
+<div id="information">
+  <div class="information_box">
+    <img src="img/logo_green.png" alt="logo_green">
+  </div>
+</div>
+
+<div id="app_background"></div>
+
 <footer>
 
 </footer>
+<div id="extra_box"> First Recipe Since 2005 </div>
 </body>
 </html>
