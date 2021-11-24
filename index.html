@@ -7,7 +7,7 @@
   <title>요리를 즐겁게-만개의 레시피-</title>
 
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/main(599px).css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,19 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 
 
   
@@ -105,27 +117,27 @@
         });
 
 
-          // function prev() {
-          //   $('.honor_minibox:last').prependTo('.honor_minibox');
-          //   $('.honor_minibox').css('margin-left', -250);
-          //   $('.honorwrap').stop().animate({ marginLeft: 0 });
-          // }
+          function prev2() {
+            $('.honor_minibox:last').prependTo('#honorwrap');
+            $('#honorwrap').css('margin-left', -250);
+            $('#honorwrap').stop().animate({ marginLeft: 0 });
+          }
 
-          // function next() {
-          //   $('.honorwrap_minibox').stop().animate({ marginLeft: -250 }, function () {
-          //     $('.honor_minibox:first').appendTo('.honorwrap');
-          //     $('.honorwrap').css({ marginLeft: 0 });
-          //   });
-          // }
+          function next2() {
+            $('#honorwrap').stop().animate({ marginLeft: -250}, function () {
+              $('.honor_minibox:first').appendTo('#honorwrap');
+              $('#honorwrap').css({ marginLeft: 0 });
+            });
+          }
 
-          // $(function () {
-          //   $(".honor_left").click(function () {
-          //     prev();
-          //   });
-          //   $(".honor_right").click(function () {
-          //     next();
-          //   });
-          // });
+          $(function () {
+            $(".honor_left").click(function () {
+              prev2();
+            });
+            $(".honor_right").click(function () {
+              next2();
+            });
+          });
 
 </script>  
 </head>
@@ -134,6 +146,7 @@
     <div id="headerbackground">
       <div class="header_top">
           <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+          <div class="menupic"><img src="img/icon_menu.png" alt="icon_menu"></div>
           <nav class="menu">
             <ul>
               <li><a href="#">요리 레시피</a></li>
@@ -315,6 +328,9 @@
           <p><a href="#">된장찌개 황금 레시피</a></p>
           <img src="img/icon_ranking_author01.png" alt="icon_ranking_author01" class="author">
           <span>속초바닷가</span>
+          <div class="star" style="background-image:url(img/icon_star.png)">
+            <p>(378)</p>
+          </div>
         </a>
       </div>
       <div>
@@ -324,6 +340,9 @@
           <p><a href="#">기사식당st 제육 레시피</a></p>
           <img src="img/icon_ranking_author02.png" alt="icon_ranking_author02" class="author">
           <span>대구앞동산</span>
+          <div class="star" style="background-image:url(img/icon_star.png)">
+            <p>(315)</p>
+          </div>
         </a>
       </div>
       <div>
@@ -333,6 +352,9 @@
           <p><a href="#">백선생 초간단 나물 된장 무침</a></p>
           <img src="img/icon_ranking_author03.png" alt="icon_ranking_author03" class="author">
           <span>서귀포해변</span>
+          <div class="star" style="background-image:url(img/icon_star.png)">
+            <p>(307)</p>
+          </div>
         </a>
       </div>
       <div>
@@ -342,6 +364,9 @@
           <p><a href="#">장어덮밥 홀릭 양념 만드는 법</a></p>
           <img src="img/icon_ranking_author04.png" alt="icon_ranking_author04" class="author">
           <span>인천하늘길</span>
+          <div class="star" style="background-image:url(img/icon_star.png)">
+            <p>(289)</p>
+          </div>
         </a>
       </div>
       <div>
@@ -351,6 +376,9 @@
           <p><a href="#">엄마의 레시피, 경양식 돈까쓰</a></p>
           <img src="img/icon_ranking_author04.png" alt="icon_ranking_author04" class="author">
           <span>문경온천</span>
+          <div class="star" style="background-image:url(img/icon_star.png)">
+            <p>(253)</p>
+          </div>
         </a>
       </div>
       <div>
@@ -360,6 +388,9 @@
           <p><a href="#">10분만에 휘리릭 콩나물 무침</a></p>
           <img src="img/icon_ranking_author05.png" alt="icon_ranking_author05" class="author">
           <span>홍대사거리</span>
+          <div class="star" style="background-image:url(img/icon_star.png)">
+            <p>(171)</p>
+          </div>
         </a>
       </div>
       <div>
@@ -369,6 +400,9 @@
           <p><a href="#">김장 보쌈으로 만든 떡국</a></p>
           <img src="img/icon_ranking_author06.png" alt="icon_ranking_author06" class="author">
           <span>일산방송국</span>
+          <div class="star" style="background-image:url(img/icon_star.png)">
+            <p>(157)</p>
+          </div>
         </a>
       </div>
       <div>
@@ -378,6 +412,9 @@
           <p><a href="#">만두전골 레시피 여기서만^^</a></p>
           <img src="img/icon_ranking_author01.png" alt="icon_ranking_author01" class="author">
           <span>상주상추</span>
+          <div class="star" style="background-image:url(img/icon_star.png)">
+            <p>(131)</p>
+          </div>
         </a>
       </div>
       </div>
@@ -386,10 +423,10 @@
 
 <div id="promotion2_background">
   <div class="promotion2_box">
-    <h3>총 상금 200만원!</h3>
+    <h3>총 상금 200만원 받으러 가자!</h3>
     <h1>노르웨이 고등어<br> 레시피 공모전</h1>
     <a href="index.html">
-      <div>공모전 참여하기 &gt;</div>
+      <div>공모전 참여하기</div>
     </a>
   </div>
 </div>
@@ -407,11 +444,13 @@
   <div class="honor_box">
     <h2>추천수 <span>9999+</span> 명예의 전당!</h2>
     <div class="honor_topline"></div>
-    <div class="honor">
-      <img src="img/icon_left.png" alt="icon_left" class="honor_left">
-      <img src="img/icon_right.png" alt="icon_right" class="honor_right">
 
-      <div class="honorwrap">
+    <img src="img/icon_left.png" alt="icon_left" class="honor_left">
+    <img src="img/icon_right.png" alt="icon_right" class="honor_right">
+    
+    <div class="honor">      
+
+      <div id="honorwrap">
         <div class="honor_minibox">
           <div style="background-image: url(img/honorfood_01.jpg);">
             <div class="honor_textbox">닭가슴살스테이크~ </br>십년째 만들어 먹는 양념 공유해요!</div>
@@ -534,8 +573,12 @@
 
 <footer>
   <div class="footer_box">
-    <textarea name="opinion" cols="50" rows="13" placeholder="불편사항이나 제안사항이 있으신가요? &#13;&#10;만개의레시피에 전하고 싶은 의견을 남겨주세요."></textarea>
-    <button class="send">의견보내기</button>
+    <div class="footer_left">
+      <span>TO. 만개의레시피</span>
+      <textarea name="opinion" cols="50" rows="10"
+        placeholder="불편사항이나 제안사항이 있으신가요? &#13;&#10;만개의레시피에 전하고 싶은 의견을 남겨주세요."></textarea>
+      <button class="send">의견보내기</button>
+    </div>
     <div class="footer_textbox">
     <ul>
       <a href="index.html"><li><b>회사소개</b> | <b>광고문의</b> | <b>개인정보처리방침</b> | <b>이용약관</b> | <b>고객센터</b> </li></a>
