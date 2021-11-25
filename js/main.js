@@ -96,6 +96,8 @@
         });
       });
 
+        $(".menu").hidden();
+
       $(window).resize(function(){
         if(window.innerWidth>=599){
             $(".menu").show();
