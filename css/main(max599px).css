@@ -11,10 +11,10 @@ a{text-decoration: none; color:#666;}
 body{background-color: rgb(250, 250, 250); font-family: 'Noto Sans KR', sans-serif;}
 
 header{width: 100%; height: 70px; position:absolute; line-height:50px; transition: 0.5s ease-in-out; z-index: 10;}
-header.fixed{background: #74b243; position:fixed;}
+header.fixed{background: #74b243; position:fixed; width: 100%;}
 
 #headerbackground{width: 100%; height: 70px; margin: 0 auto;}
-.header_top{width: 599px; height: 70px;  display: flex; justify-content: space-between; align-content: center; align-items: center;}
+.header_top{width: 100%; height: 70px;  display: flex; justify-content: space-between; align-content: center; align-items: center;}
 .menupic{display: block; cursor: pointer;}
 .logo{padding-top: 15px;}
 
@@ -26,7 +26,7 @@ header.fixed{background: #74b243; position:fixed;}
 .menu a.txtCh{color:white;}
 
 #main_background{width: 100%; height: auto; background-image: url(../img/mainfood_black.jpg); background-position: center; background-size: cover;}
-.main{width: 599px; height: auto; margin: 0 auto;}
+.main{width: 100%; height: auto; margin: 0 auto;}
 .maintext{text-align: center; padding: 180px 30px 0 0; display: flex; justify-content: center; align-content: center; align-items:center;}
 .maintext h1{color: white; letter-spacing: 15px; font-size: 33px; margin: 0 100px 30px 0px; font-family: 'Sunflower', sans-serif;}
 .maintext .search{width: 380px; height: 40px; border: none; border-radius: 20px; opacity: 0.6; font-size: 15px; margin: 100px 0 0 -500px; padding-left: 15px;}
@@ -35,15 +35,15 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 .notice{width:100%; height:50px; overflow:hidden; margin-top: 20px;}
-.rolling{position:relative; width:1200px; height:auto;}
+.rolling{position:relative; width:100%; height:auto;}
 .rolling li{width: 100%; height:50px; line-height:50px; margin-left: 270px;}
 .rolling li a{color:white;}
 .word{color:white; position: absolute; margin-left: 165px; font-size: 16.5px; margin-top: 13px; font-family: 'Noto Sans KR', sans-serif;}
 
 
 .main_login_background{width: 100%; margin-top: 100px; margin-left: -15px;}
-.main_login{width: 599px; display: flex; justify-content: space-around; flex-direction: column;}
-.loginbox{width: 400px; height: 200px; text-align: center; padding: 20px; color: white; line-height: 30px; margin-left: 100px; margin-bottom: 30px;}
+.main_login{width: 100%; display: flex; justify-content: space-around; flex-direction: column;}
+.loginbox{width: 300px; height: 200px; text-align: center; padding: 20px; color: white; line-height: 30px; margin-left: 150px; margin-bottom: 30px;}
 .loginbox h4{font-weight: 300; font-size: 13px;}
 .loginbox:hover{box-shadow: 0 0 5px black; border: 2px solid white; border-radius: 10px;}
 
@@ -67,7 +67,7 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 #bestcook_background{width: 100%; height: 130px; background-color: rgb(250, 250, 250);}
-.bestcook{width: 599px; height: 130px; background-color: rgb(250, 250, 250); margin: 0 auto;}
+.bestcook{width: 100%; height: 130px; background-color: rgb(250, 250, 250); margin: 0 auto;}
 .bestcook h2{padding: 70px 0 10px 200px; display: block;}
 .bestcook .date{padding-top: 150px; padding-left: 180px; color: #666; font-weight: 300;}
 
@@ -76,16 +76,16 @@ header.fixed{background: #74b243; position:fixed;}
 .calender span{font-size: 14px; display: inline-block; color: #666;}
 .calender button{width: 50px; height: 22px; text-align: center; border: none; color: #666; cursor:pointer;} 
 
-#ranking_topline{width: 450px; height: 10px; border-top: 4px solid #74b243; margin-top: 30px; margin-left: 45px}
+#ranking_topline{width: 100%; height: 10px; border-top: 4px solid #74b243; margin-top: 30px; margin-left: 45px}
 
 #ranking_sub_background{width: 100%; height: auto; background-color: rgb(250, 250, 250); margin-top: 70px;}
-.ranking_sub{width: 599px; height: 1800px; background-color: rgb(250, 250, 250);}
-.ranking_sub_box{width: 580px; height: 1800px; background-color: rgb(250, 250, 250); display: flex; flex-direction: column; justify-content: space-around; margin-right: 50px;}
+.ranking_sub{width: 100%; height: 1800px; background-color: rgb(250, 250, 250);}
+.ranking_sub_box{width: 100%; height: 1800px; background-color: rgb(250, 250, 250); display: flex; flex-direction: column; justify-content: space-around; margin-right: 50px;}
 .ranking_sub_box div{width: 480px; height: 200px; background-color: white; border-radius: 3px; box-shadow: 0 0 50px rgb(223, 223, 223); position: relative;}
 .ranking_sub_box div a>img{width: 45%; height: 180px; padding: 10px 15px; margin-top: 10px; background-position: center; background-size: cover;}
 .ranking_sub_box div img{padding: 5px; margin-top: 10px;}
 .ranking_sub_box .star{width: 100px; height: 20px; background-color: rgb(250, 250, 250); position: absolute; bottom: 30px; left: 220px;}
-.ranking_sub_box .star>p{position: absolute; font-size: 10px; color: #666;} 
+.ranking_sub_box .star>p{font-size: 10px; color: #666; position: absolute; top: 0px; right: 100px;} 
 .ranking_sub_box h3{position:absolute; top: 23px; left: 220px; font-size: 23px;}
 .ranking_sub_box p{position:absolute; top: 60px; left: 220px; font-family: 'Noto Sans KR', sans-serif; font-weight: 500; font-size: 18px;}
 .ranking_sub_box p a:hover{color: #289f5d;}
@@ -94,7 +94,7 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 #promotion2_background{width: 100%; height: 280px; margin-top: 50px; background-image: url(../img/promotion2.jpg); background-position: center; background-size: cover;}
-.promotion2_box{width: 599px; height: 280px; margin: 0 auto; padding: 20px 10px; text-align: right;}
+.promotion2_box{width: 100%; height: 280px; margin: 0 auto; padding: 20px 10px; text-align: right;}
 .promotion2_box h3{color: rgb(153, 207, 255); margin: 5px 55px; font-size: 30px; letter-spacing: -1px; font-weight: 300; font-family: 'Nanum Pen Script', cursive;}
 .promotion2_box h1{color: white; font-size: 50px; line-height: 55px; margin: 10px 50px; font-family: 'Jua', sans-serif; color:rgb(48, 48, 196); text-shadow: 0 0 10px white;}
 .promotion2_box h1 span{color: gold; font-size: 43px;}
@@ -103,7 +103,7 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 #promotion_background{width: 100%; height: 280px; margin-top: 30px; background-image: url(../img/promotion.jpg); background-position: right;}
-.promotion_box{width: 599px; height: 280px; text-align: right; padding: 33px 10px;}
+.promotion_box{width: 100%; height: 280px; text-align: right; padding: 33px 10px;}
 .promotion_box h3{color: white; font-size: 20px; letter-spacing: -2px; font-weight: 300; display: block; margin-right: 50px;}
 .promotion_box h1{color: white; font-size: 35px; line-height: 50px; letter-spacing: -2px; margin: 5px 50px;}
 .promotion_box h1 span{color: gold; font-size: 43px; display: block;}
@@ -112,7 +112,7 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 #honor_background{width: 100%; height: 550px; margin-top: 10px;}
-.honor_box{width: 599px; height: 550px; margin: 0 auto; position: relative; }
+.honor_box{width: 100%; height: 550px; margin: 0 auto; position: relative; }
 .honor_box h2{padding-top: 50px; padding-left: 130px;}
 .honor_box h2 span{color: #74b243;}
 .honor_topline{width: 450px; height: 10px; border-top: 4px solid #74b243; margin-top: 20px; margin-left: 45px}
@@ -128,11 +128,11 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 #chef_background{width: 100%; height: 700px; margin-top: 10px;}
-.chef_box{width: 599px; height: 700px; margin: 0 auto;}
+.chef_box{width: 100%; height: 700px; margin: 0 auto;}
 .chef_box h2{padding-top: 50px; padding-left: 220px;}
 .chef_box span{padding-top: 10px; padding-left: 160px; color: #666; font-weight: 300; display: block;}
 .chef_topline{width: 450px; height: 10px; border-top: 4px solid #74b243; margin-top: 20px; margin-left: 45px}
-.chef{width: 599px; height: 400px; display:flex; flex-flow: row wrap; margin-top: 80px;}
+.chef{width: 100%; height: 400px; display:flex; flex-flow: row wrap; margin-top: 80px;}
 .chef a{width: 250px; height: auto; position: relative;}
 .chef div{width: 200px; height: 200px; border-radius: 10px; background-size: cover; background-position: center; box-shadow: 0 0 30px rgb(218, 218, 218); position: absolute;}
 
@@ -145,7 +145,7 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 #information{width: 100%; height: 400px; background-color: #289f5d; margin: 0 auto;}
-.information_box{width: 580px; height: 400px; display: flex; justify-content: space-around; align-items: center; align-content: center; flex-flow: row wrap; padding-bottom: 20px; margin-right: 30px;}
+.information_box{width: 100%; height: 400px; display: flex; justify-content: space-around; align-items: center; align-content: center; flex-flow: row wrap; padding-bottom: 20px; margin-right: 30px;}
 .inform{width: 150px; margin-bottom: 20px; margin-right: 20px; text-align: center; display: inline-block;}
 .information_box .logo_green{padding-top: -10px; padding-left: 10px;}
 .information_box p{font-size: 13px; color: white; margin: 5px; }
@@ -153,8 +153,8 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 footer{width: 100%; height: 600px; background-color: #74b243;}
-.footer_box{width: 599px; height: 600px; margin: 0 auto; position: relative;}
-.footer_left{width: 599px; height: 300px; float: left; position:relative;}
+.footer_box{width: 100%; height: 600px; margin: 0 auto; position: relative;}
+.footer_left{width: 100%; height: 300px; margin: 0 auto;}
 .footer_box span{font-family: 'Jua', sans-serif; position:absolute; font-size: 23px; left: 195px; padding: 20px 0; color: #fff;}
 textarea{background-color: #eee; border-radius: 10px; border: 2px solid #eee; margin-top: 70px; margin-left: 105px;}
 textarea::placeholder{padding: 10px; font-family: 'Noto Sans KR', sans-serif; color: #666; font-size: 13px;}
