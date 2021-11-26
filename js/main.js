@@ -90,13 +90,15 @@
         });
 
 
-      $(function(){
-        $(".menupic").click(function(){
-          $(".menu").slideToggle();
-        });
-      });
+      function openNav() {
+        document.getElementsByTagName(".menupic").onclick = function () {
+          document.getElementsByTagName(".menu").style.width = "100%";
+      }
+    }
+      // function closeNav() {
+      //   document.getElementsByTagName(".menu ul").style.width = "0%";
+      // }
 
-        $(".menu").hidden();
 
       $(window).resize(function(){
         if(window.innerWidth>=599){

@@ -16,10 +16,10 @@ header.fixed{background: #74b243; position:fixed;}
 #headerbackground{width: 100%; height: 70px; margin: 0 auto;}
 .header_top{width: 599px; height: 70px;  display: flex; justify-content: space-between; align-content: center; align-items: center;}
 .menupic{display: block; cursor: pointer;}
-.logo{padding-top: 10px;}
+.logo{padding-top: 15px;}
 
-.menu{display: none;}
-.menu ul{display: block; position:fixed; top: 0; width: 300px; height: 100%; background-color: #74b243; overflow: auto; transition: left 500ms ease; z-index: 3px;}
+
+.menu ul{height: 100%; width: 0; position: fixed; z-index:103; top: 0; left: 0; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.9); overflow-x: hidden; transition: 0.5s;}
 .menu>ul>li{border-bottom: 1px solid white; padding: 10px;}
 .menu>ul>li>a{font-size: 17px; color: white; margin-left: 90px;}
 .menu>ul>li>a:hover{text-shadow: 0 0 8px white;}
@@ -28,20 +28,20 @@ header.fixed{background: #74b243; position:fixed;}
 #main_background{width: 100%; height: auto; background-image: url(../img/mainfood_black.jpg); background-position: center; background-size: cover;}
 .main{width: 599px; height: auto; margin: 0 auto;}
 .maintext{text-align: center; padding: 180px 30px 0 0; display: flex; justify-content: center; align-content: center; align-items:center;}
-.maintext h1{color: white; letter-spacing: 15px; font-size: 40px; margin: 0 0 0 10px; font-family: 'Sunflower', sans-serif;}
-.maintext .search{width: 350px; height: 40px; border: none; border-radius: 20px; opacity: 0.6; font-size: 15px; margin: 100px 0 0 -500px; padding-left: 15px;}
+.maintext h1{color: white; letter-spacing: 15px; font-size: 33px; margin: 0 100px 30px 0px; font-family: 'Sunflower', sans-serif;}
+.maintext .search{width: 380px; height: 40px; border: none; border-radius: 20px; opacity: 0.6; font-size: 15px; margin: 100px 0 0 -500px; padding-left: 15px;}
 .search:focus{outline: none;}
 .search_icon{width: 10px; height: 10px; margin: 70px 0px 0 0px; padding-left: 10px;}
 
 
-.notice{width:100%; height:50px; overflow:hidden; margin-top: 45px;}
+.notice{width:100%; height:50px; overflow:hidden; margin-top: 20px;}
 .rolling{position:relative; width:1200px; height:auto;}
-.rolling li{width: 100%; height:50px; line-height:50px; margin-left: 250px;}
+.rolling li{width: 100%; height:50px; line-height:50px; margin-left: 270px;}
 .rolling li a{color:white;}
-.word{color:white; position: absolute; margin-left: 150px; font-size: 16.5px; margin-top: 13px; font-family: 'Noto Sans KR', sans-serif;}
+.word{color:white; position: absolute; margin-left: 165px; font-size: 16.5px; margin-top: 13px; font-family: 'Noto Sans KR', sans-serif;}
 
 
-.main_login_background{width: 100%; margin-top: 280px; margin-left: -30px;}
+.main_login_background{width: 100%; margin-top: 100px; margin-left: -15px;}
 .main_login{width: 599px; display: flex; justify-content: space-around; flex-direction: column;}
 .loginbox{width: 400px; height: 200px; text-align: center; padding: 20px; color: white; line-height: 30px; margin-left: 100px; margin-bottom: 30px;}
 .loginbox h4{font-weight: 300; font-size: 13px;}
@@ -80,20 +80,20 @@ header.fixed{background: #74b243; position:fixed;}
 
 #ranking_sub_background{width: 100%; height: auto; background-color: rgb(250, 250, 250); margin-top: 70px;}
 .ranking_sub{width: 599px; height: 1800px; background-color: rgb(250, 250, 250);}
-.ranking_sub_box{width: 580px; height: 1800px; background-color: rgb(250, 250, 250); display: flex; flex-direction: column; justify-content: space-around;}
-.ranking_sub_box div{width: 480px; height: 200px; background-color: white; border-radius: 3px; box-shadow: 0 0 50px rgb(223, 223, 223); position: relative; }
-.ranking_sub_box div img{width: 45%; height: 180px; padding: 15px; background-position: center; background-size: cover;}
-.ranking_sub_box .star{width: 100px; height: 20px; background-color: rgb(250, 250, 250); margin-bottom: 30px; position: relative;}
-.ranking_sub_box .star p{position:absolute; left: 90px; top: -6px; font-size: 10px; color: #666;}
-.ranking_sub_box h3{padding-left: 15px;}
-.ranking_sub_box p{padding: 10px 15px; font-family: 'Noto Sans KR', sans-serif; font-weight: 500;}
+.ranking_sub_box{width: 580px; height: 1800px; background-color: rgb(250, 250, 250); display: flex; flex-direction: column; justify-content: space-around; margin-right: 50px;}
+.ranking_sub_box div{width: 480px; height: 200px; background-color: white; border-radius: 3px; box-shadow: 0 0 50px rgb(223, 223, 223); position: relative;}
+.ranking_sub_box div img{width: 45%; height: 180px; padding: 10px 15px; margin-top: 10px; background-position: center; background-size: cover;}
+.ranking_sub_box .star{width: 100px; height: 20px; background-color: rgb(250, 250, 250); position: absolute; bottom: 30px; left: 220px;}
+.ranking_sub_box .star p{float:right; font-size: 10px; color: #666;} 
+.ranking_sub_box h3{position:absolute; top: 23px; left: 220px; font-size: 23px;}
+.ranking_sub_box p{position:absolute; top: 60px; left: 220px; font-family: 'Noto Sans KR', sans-serif; font-weight: 500; font-size: 18px;}
 .ranking_sub_box p a:hover{color: #289f5d;}
-.ranking_sub_box .author{width: 35px; height: 35px; border-radius: 50px; margin: 5px 15px; box-shadow: 0 0 2px #666;}
-.ranking_sub_box span{font-size: 13px; color: #666; position: absolute; margin-top: 11px; margin-left: -5px;}
+.ranking_sub_box .author{width: 35px; height: 35px; border-radius: 50px; box-shadow: 0 0 2px #666; position: absolute; top: 90px; left: 220px}
+.ranking_sub_box span{font-size: 13px; color: #666; position: absolute; top: 108px; left: 265px;}
 
 
 #promotion2_background{width: 100%; height: 280px; margin-top: 50px; background-image: url(../img/promotion2.jpg); background-position: center; background-size: cover;}
-.promotion2_box{width: 599px; height: 280px; margin: 0 auto; padding-right: 50px; text-align: right;}
+.promotion2_box{width: 599px; height: 280px; margin: 0 auto; padding: 20px 10px; text-align: right;}
 .promotion2_box h3{color: rgb(153, 207, 255); margin: 5px 55px; font-size: 30px; letter-spacing: -1px; font-weight: 300; font-family: 'Nanum Pen Script', cursive;}
 .promotion2_box h1{color: white; font-size: 50px; line-height: 55px; margin: 10px 50px; font-family: 'Jua', sans-serif; color:rgb(48, 48, 196); text-shadow: 0 0 10px white;}
 .promotion2_box h1 span{color: gold; font-size: 43px;}
@@ -102,11 +102,11 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 #promotion_background{width: 100%; height: 280px; margin-top: 30px; background-image: url(../img/promotion.jpg); background-position: right;}
-.promotion_box{width: 599px; height: 280px; margin: 0 auto; text-align: right; padding-bottom: 50px;}
-.promotion_box h3{color: white; font-size: 20px; letter-spacing: -2px; font-weight: 300; display: block; }
-.promotion_box h1{color: white; font-size: 35px; line-height: 50px; letter-spacing: -2px; margin: 10px 50px;}
+.promotion_box{width: 599px; height: 280px; text-align: right; padding: 33px 10px;}
+.promotion_box h3{color: white; font-size: 20px; letter-spacing: -2px; font-weight: 300; display: block; margin-right: 50px;}
+.promotion_box h1{color: white; font-size: 35px; line-height: 50px; letter-spacing: -2px; margin: 5px 50px;}
 .promotion_box h1 span{color: gold; font-size: 43px; display: block;}
-.promotion_box a div{float: left; width: 200px; height: 50px; border-radius: 50px; background-color: orangered; text-align: center; padding: 12px; color: white; opacity: 1; margin-left: 250px;}
+.promotion_box a div{float: right; width: 200px; height: 50px; border-radius: 50px; background-color: orangered; text-align: center; padding: 12px; color: white; opacity: 1; margin-top: 10px; margin-right: 50px;}
 .promotion_box a div:hover{opacity: 0.8;}
 
 
@@ -126,16 +126,16 @@ header.fixed{background: #74b243; position:fixed;}
 .honor_left{position: absolute; top: 58%; left: 45px; transform:translateY(-30%) ; cursor: pointer;}
 
 
-#chef_background{width: 100%; height: 800px; margin-top: 10px;}
-.chef_box{width: 599px; height: 800px; margin: 0 auto;}
+#chef_background{width: 100%; height: 700px; margin-top: 10px;}
+.chef_box{width: 599px; height: 700px; margin: 0 auto;}
 .chef_box h2{padding-top: 50px; padding-left: 220px;}
 .chef_box span{padding-top: 10px; padding-left: 160px; color: #666; font-weight: 300; display: block;}
 .chef_topline{width: 450px; height: 10px; border-top: 4px solid #74b243; margin-top: 20px; margin-left: 45px}
 .chef{width: 599px; height: 400px; display:flex; flex-flow: row wrap; margin-top: 80px;}
 .chef a{width: 250px; height: auto; position: relative;}
-.chef div{width: 200px; height: 200px; border-radius: 10px; background-size: cover; background-position: center; box-shadow: 0 0 30px rgb(218, 218, 218); position: absolute; margin-bottom: 20px;}
+.chef div{width: 200px; height: 200px; border-radius: 10px; background-size: cover; background-position: center; box-shadow: 0 0 30px rgb(218, 218, 218); position: absolute;}
 
-.chef_textbox{float:left; width:100%; height:100%; background-color:black; position:absolute; opacity: 0; margin-bottom: 20px;}
+.chef_textbox{float:left; width:100%; height:100%; background-color:black; position:absolute; opacity: 0;}
 .chef_textbox:hover {opacity:0.7; transition: all 0.3s ease;}
 
 .chef_textbox span{color:white; font-weight: bold; font-size: 15px; position: absolute; top: 50px; left:0; display: inline-block; text-align: center; width:100%;}
@@ -144,10 +144,10 @@ header.fixed{background: #74b243; position:fixed;}
 
 
 #information{width: 100%; height: 400px; background-color: #289f5d; margin: 0 auto;}
-.information_box{width: 500px; height: 400px; display: flex; justify-content: space-around; align-items: center; align-content: center; flex-flow: row wrap; padding-bottom: 30px; padding-right: 20px; margin-left: 20px;}
-.inform{width: 120px; margin-bottom: 10px; margin-right: 10px; text-align: center; display: inline-block;}
-.information_box .logo_green{padding-top: 30px; padding-left: 10px;}
-.information_box p{font-size: 13px; color: white; margin: 5px;}
+.information_box{width: 580px; height: 400px; display: flex; justify-content: space-around; align-items: center; align-content: center; flex-flow: row wrap; padding-bottom: 20px; margin-right: 30px;}
+.inform{width: 150px; margin-bottom: 20px; margin-right: 20px; text-align: center; display: inline-block;}
+.information_box .logo_green{padding-top: -10px; padding-left: 10px;}
+.information_box p{font-size: 13px; color: white; margin: 5px; }
 .inform span{font-size: 20px; color: gold; font-weight: 700;}
 
 
@@ -155,10 +155,10 @@ footer{width: 100%; height: 600px; background-color: #74b243;}
 .footer_box{width: 599px; height: 600px; margin: 0 auto; position: relative;}
 .footer_left{width: 599px; height: 300px; float: left; position:relative;}
 .footer_box span{font-family: 'Jua', sans-serif; position:absolute; font-size: 23px; left: 195px; padding: 20px 0; color: #fff;}
-textarea{background-color: #eee; border-radius: 10px; border: 2px solid #eee; margin-top: 70px; margin-left: 85px;}
+textarea{background-color: #eee; border-radius: 10px; border: 2px solid #eee; margin-top: 70px; margin-left: 105px;}
 textarea::placeholder{padding: 10px; font-family: 'Noto Sans KR', sans-serif; color: #666; font-size: 13px;}
-.send{width: 370px; height: 30px; position: absolute; top: 230px; left: 85px; border:none; color: #666; border-radius: 3px; background: white; cursor: pointer; margin-top: 8px;}
-.footer_textbox{width: 599px; height: 300px; float: right; padding-top: 5px; padding-left: 90px;}
+.send{width: 370px; height: 30px; position: absolute; top: 230px; left: 105px; border:none; color: #666; border-radius: 3px; background: white; cursor: pointer; margin-top: 8px;}
+.footer_textbox{width: 599px; height: 300px; float: right; padding-top: 5px; padding-left: 105px;}
 .footer_textbox ul li{line-height: 18px; font-size: 12px; color: white;}
 
 #extra_box{width: 100%; height: 60px; margin: 0 auto; text-align: center; padding: 16px; font-size: 18px; font-family: 'Anton', sans-serif; color: rgb(161, 161, 161); letter-spacing: 3px; background-color: rgb(250, 250, 250);}
