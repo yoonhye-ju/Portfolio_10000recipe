@@ -90,14 +90,14 @@
         });
 
 
-      function openNav() {
-        document.getElementsByTagName(".menupic").onclick = function () {
-          document.getElementsByTagName(".menu").style.width = "100%";
-      }
-    }
-      // function closeNav() {
-      //   document.getElementsByTagName(".menu ul").style.width = "0%";
-      // }
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+      
+      
 
 
       $(window).resize(function(){

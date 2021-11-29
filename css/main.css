@@ -23,6 +23,8 @@ header.fixed{background: #74b243; position:fixed;}
 .menu>ul>li>a:hover{text-shadow: 0 0 8px white;}
 .menu a.txtCh{color:white;}
 
+#myNav{display: none;}
+
 #main_background{width: 100%; height: 937px; background-image: url(../img/mainfood_black.jpg); background-position: center; background-size: cover;}
 .main{width: 100%; height: 937px; margin: 0 auto;}
 .maintext{text-align: center; padding: 310px 0 0 0; display: flex; justify-content: center; align-content: center; align-items:center; flex-direction: column;}

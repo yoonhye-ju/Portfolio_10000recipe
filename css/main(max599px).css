@@ -13,17 +13,31 @@ body{background-color: rgb(250, 250, 250); font-family: 'Noto Sans KR', sans-ser
 header{width: 100%; height: 70px; position:absolute; line-height:50px; transition: 0.5s ease-in-out; z-index: 10;}
 header.fixed{background: #74b243; position:fixed; width: 100%;}
 
-#headerbackground{width: 100%; height: 70px; margin: 0 auto;}
+#headerbackground{width: 100%; height: 70px;}
 .header_top{width: 100%; height: 70px;  display: flex; justify-content: space-between; align-content: center; align-items: center;}
 .menupic{display: block; cursor: pointer;}
-.logo{padding-top: 15px;}
+.logo{padding-top: 15px; display:block;}
 
 
-.menu ul{height: 100%; width: 0; position: fixed; z-index:103; top: 0; left: 0; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.9); overflow-x: hidden; transition: 0.5s;}
+.menu ul{height: 100%; width: 0; position: fixed; z-index:103; top: 0; left: 0; overflow-x: hidden; transition: 0.5s;}
 .menu>ul>li{border-bottom: 1px solid white; padding: 10px;}
 .menu>ul>li>a{font-size: 17px; color: white; margin-left: 90px;}
 .menu>ul>li>a:hover{text-shadow: 0 0 8px white;}
 .menu a.txtCh{color:white;}
+
+
+#a {display:none;}
+img {cursor: pointer;}
+
+.overlay {height: 100%; width: 0; position: fixed; z-index:103; top: 0; left: 0; background-color: #289f5d; background-color: #289f5d; overflow-x: hidden; transition: 0.5s;}
+.overlay-content {position: relative;top: 25%; width: 100%; text-align: center; display:block; margin-top: 30px; }
+.overlay a { padding:10px; line-height:160%; text-decoration: none; font-size: 30px; color: white; transition: 0.3s; font-weight: bold; display: block;}
+.overlay a:hover, .overlay a:focus {color: #74b243;}
+.overlay .closebtn {position: absolute; top: 20px; right: 45px; font-size: 60px;}
+.sns {display: none;}
+.app {display: none;}
+
+
 
 #main_background{width: 100%; height: auto; background-image: url(../img/mainfood_black.jpg); background-position: center; background-size: cover;}
 .main{width: 100%; height: auto; margin: 0 auto;}
@@ -38,7 +52,7 @@ header.fixed{background: #74b243; position:fixed; width: 100%;}
 .rolling{position:relative; width:100%; height:auto;}
 .rolling li{width: 100%; height:50px; line-height:50px; margin-left: 270px;}
 .rolling li a{color:white;}
-.word{color:white; position: absolute; margin-left: 165px; font-size: 16.5px; margin-top: 13px; font-family: 'Noto Sans KR', sans-serif;}
+.word{color:white; float: left; margin-left: 165px; font-size: 16.5px; margin-top: 13px; font-family: 'Noto Sans KR', sans-serif;}
 
 
 .main_login_background{width: 100%; margin-top: 100px; margin-left: -15px;}
@@ -76,7 +90,7 @@ header.fixed{background: #74b243; position:fixed; width: 100%;}
 .calender span{font-size: 14px; display: inline-block; color: #666;}
 .calender button{width: 50px; height: 22px; text-align: center; border: none; color: #666; cursor:pointer;} 
 
-#ranking_topline{width: 100%; height: 10px; border-top: 4px solid #74b243; margin-top: 30px; margin-left: 45px}
+#ranking_topline{width: 450px; height: 10px; border-top: 4px solid #74b243; margin-top: 30px;}
 
 #ranking_sub_background{width: 100%; height: auto; background-color: rgb(250, 250, 250); margin-top: 70px;}
 .ranking_sub{width: 100%; height: 3500px; background-color: rgb(250, 250, 250);}
@@ -84,13 +98,13 @@ header.fixed{background: #74b243; position:fixed; width: 100%;}
 .ranking_sub_box div{width: 60%; height: 400px; background-color: white; border-radius: 3px; box-shadow: 0 0 50px rgb(223, 223, 223); float: left;}
 .ranking_sub_box div a>img{width: 100%; height: 60%; padding: 10px 15px; margin-top: 10px; background-position: center; background-size: cover;}
 .ranking_sub_box div img{padding: 5px; margin-top: 10px;}
-.ranking_sub_box .star{width: 100px; height: 20px; background-color: rgb(250, 250, 250); float: left; margin: 40px 0 0 30px;}
-.ranking_sub_box .star>p{font-size: 10px; color: #666; float: left; margin-left: 100px; margin-top: -5px;}
+.ranking_sub_box .star{width: 100px; height: 20px; background-color: rgb(250, 250, 250); float: left; margin: 105px 0 0 -40px;}
+.ranking_sub_box .star>p{font-size: 10px; color: #666; float: left; margin-left: 105px; margin-top: 3px;}
 .ranking_sub_box h3{float: left; margin-left: 20px; font-size: 23px;}
 .ranking_sub_box p{float: left; margin-top: 40px; margin-left: -35px; font-family: 'Noto Sans KR', sans-serif; font-weight: 500; font-size: 18px;}
 .ranking_sub_box p a:hover{color: #289f5d;}
 .ranking_sub_box .author{width: 35px; height: 35px; border-radius: 50px; box-shadow: 0 0 2px #666; float: left; margin-top: 75px; margin-left: -160px;}
-.ranking_sub_box span{font-size: 13px; color: #666; float: left; margin: 15px 0 0 30px;}
+.ranking_sub_box span{font-size: 13px; color: #666; float: left; margin: 81px 0 0 -120px;}
 
 
 #promotion2_background{width: 100%; height: 280px; margin-top: 50px; background-image: url(../img/promotion2.jpg); background-position: center; background-size: cover;}
