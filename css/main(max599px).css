@@ -15,8 +15,8 @@ header.fixed{background: #74b243; position:fixed; width: 100%;}
 
 #headerbackground{width: 100%; height: 70px;}
 .header_top{width: 100%; height: 70px;  display: flex; justify-content: space-between; align-content: center; align-items: center;}
-.menupic{display: block; cursor: pointer;}
-.logo{padding-top: 15px; display:block;}
+.menupic{display: block; cursor: pointer; margin-top: 15px; margin-left: 50%;}
+.logo{padding-top: 15px;  display:block; margin-right: 5%;}
 
 
 .menu ul{height: 100%; width: 0; position: fixed; z-index:103; top: 0; left: 0; overflow-x: hidden; transition: 0.5s;}
@@ -50,9 +50,9 @@ img {cursor: pointer;}
 
 .notice{width:100%; height:50px; overflow:hidden; margin-top: 20px;}
 .rolling{position:relative; width:100%; height:auto;}
-.rolling li{width: 100%; height:50px; line-height:50px; margin-left: 270px;}
+.rolling li{width: 100%; height:50px; line-height:50px; margin-left: 50%;}
 .rolling li a{color:white;}
-.word{color:white; float: left; margin-left: 165px; font-size: 16.5px; margin-top: 13px; font-family: 'Noto Sans KR', sans-serif;}
+.word{color:white; float: left; margin-left: 30%; font-size: 16.5px; margin-top: 13px; font-family: 'Noto Sans KR', sans-serif;}
 
 
 .main_login_background{width: 100%; margin-top: 100px; margin-left: -15px;}
@@ -82,28 +82,28 @@ img {cursor: pointer;}
 
 #bestcook_background{width: 100%; height: 130px; background-color: rgb(250, 250, 250);}
 .bestcook{width: 100%; height: 130px; background-color: rgb(250, 250, 250); margin: 0 auto;}
-.bestcook h2{padding: 70px 0 10px 200px; display: block;}
-.bestcook .date{padding-top: 150px; padding-left: 180px; color: #666; font-weight: 300;}
+.bestcook h2{padding: 13% 0 0 40%; display: block;}
+.bestcook .date{padding-top: 35%; padding-left: 36%; color: #666; font-weight: 300;}
 
-.calender{float: left; margin: 50px 0px 0px 80px;}
+.calender{float: left; margin: 10% 0% 3% 11%;}
 .calender input{border: 2px solid #eee; border-radius: 3px;}
 .calender span{font-size: 14px; display: inline-block; color: #666;}
 .calender button{width: 50px; height: 22px; text-align: center; border: none; color: #666; cursor:pointer;} 
 
-#ranking_topline{width: 450px; height: 10px; border-top: 4px solid #74b243; margin-top: 30px;}
+#ranking_topline{width: 450px; height: 10px; border-top: 4px solid #74b243; margin-top: 3%;}
 
 #ranking_sub_background{width: 100%; height: auto; background-color: rgb(250, 250, 250); margin-top: 70px;}
 .ranking_sub{width: 100%; height: 3500px; background-color: rgb(250, 250, 250);}
 .ranking_sub_box{width: 100%; height: 3500px; background-color: rgb(250, 250, 250); display: flex; flex-flow: row wrap; justify-content: space-around;}
 .ranking_sub_box div{width: 60%; height: 400px; background-color: white; border-radius: 3px; box-shadow: 0 0 50px rgb(223, 223, 223); float: left;}
-.ranking_sub_box div a>img{width: 100%; height: 60%; padding: 10px 15px; margin-top: 10px; background-position: center; background-size: cover;}
-.ranking_sub_box div img{padding: 5px; margin-top: 10px;}
-.ranking_sub_box .star{width: 100px; height: 20px; background-color: rgb(250, 250, 250); float: left; margin: 105px 0 0 -40px;}
+.ranking_sub_box div a>img{width: 100%; height: 60%; padding: 3% 5%; margin-top: 2%; background-position: center; background-size: cover;}
+.ranking_sub_box div img{padding: 3%; margin-top: 10%;}
+.ranking_sub_box .star{width: 100px; height: 20px; background-color: rgb(250, 250, 250); float: left; margin-left: 50%; margin-top: 13%;}
 .ranking_sub_box .star>p{font-size: 10px; color: #666; float: left; margin-left: 105px; margin-top: 3px;}
-.ranking_sub_box h3{float: left; margin-left: 20px; font-size: 23px;}
-.ranking_sub_box p{float: left; margin-top: 40px; margin-left: -35px; font-family: 'Noto Sans KR', sans-serif; font-weight: 500; font-size: 18px;}
+.ranking_sub_box h3{float: left; margin-left: 5%; font-size: 23px;}
+.ranking_sub_box p{float: left; margin-top: 13%; font-family: 'Noto Sans KR', sans-serif; font-weight: 500; font-size: 18px;}
 .ranking_sub_box p a:hover{color: #289f5d;}
-.ranking_sub_box .author{width: 35px; height: 35px; border-radius: 50px; box-shadow: 0 0 2px #666; float: left; margin-top: 75px; margin-left: -160px;}
+.ranking_sub_box .author{width: 35px; height: 35px; border-radius: 50px; box-shadow: 0 0 2px #666; float: left; margin-top: 26%; margin-left: -67%;}
 .ranking_sub_box span{font-size: 13px; color: #666; float: left; margin: 81px 0 0 -120px;}
 
 
@@ -141,28 +141,28 @@ img {cursor: pointer;}
 .honor_left{position: absolute; top: 58%; left: 45px; transform:translateY(-30%) ; cursor: pointer;}
 
 
-#chef_background{width: 100%; height: 700px; margin-top: 10px;}
-.chef_box{width: 100%; height: 700px; margin: 0 auto;}
-.chef_box h2{padding-top: 50px; padding-left: 220px;}
-.chef_box span{padding-top: 10px; padding-left: 160px; color: #666; font-weight: 300; display: block;}
+#chef_background{width: 100%; height: 950px; margin-top: 10px;}
+.chef_box{width: 100%; height: 950px; margin: 0 auto;}
+.chef_box h2{padding-top: 10%; padding-left: 38%;}
+.chef_box span{padding-top: 2%; padding-left: 28%; color: #666; font-weight: 300; display: block;}
 .chef_topline{width: 450px; height: 10px; border-top: 4px solid #74b243; margin-top: 30px;}
-.chef{width: 100%; height: 400px; display:flex; flex-flow: row wrap; margin-top: 80px;}
-.chef a{width: 250px; height: auto; position: relative;}
-.chef div{width: 200px; height: 200px; border-radius: 10px; background-size: cover; background-position: center; box-shadow: 0 0 30px rgb(218, 218, 218); position: absolute;}
+.chef{width: 100%; height: 400px; display:flex; flex-flow: row wrap; margin-top: 50px;}
+.chef a{width: 200px; height: 300px; position: relative; margin-bottom: 50px;}
+.chef div{width: 200px; height: 300px; border-radius: 10px; background-size: cover; background-position: center; box-shadow: 0 0 30px rgb(218, 218, 218); position: absolute;}
 
 .chef_textbox{float:left; width:100%; height:100%; background-color:black; position:absolute; opacity: 0;}
 .chef_textbox:hover {opacity:0.7; transition: all 0.3s ease;}
 
-.chef_textbox span{color:white; font-weight: bold; font-size: 15px; position: absolute; top: 50px; left:0; display: inline-block; text-align: center; width:100%;}
-.chef_textbox img{width: 30px; height: 30px; margin:40px 0 0 0px; position:absolute; top:80px; left:100px;}
+.chef_textbox>span{color:white; font-weight: bold; font-size: 18px; position: absolute; top: 43%; right: 13%; display: inline-block; text-align: center; width:100%;}
+.chef_textbox img{width: 40px; height: 40px; margin-top:23%; position:absolute; top:120px; left:80px;}
 
 
 
-#information{width: 100%; height: 400px; background-color: #289f5d; margin: 0 auto;}
-.information_box{width: 100%; height: 400px; display: flex; justify-content: space-around; align-items: center; align-content: center; flex-flow: row wrap; padding-bottom: 20px; margin-right: 30px;}
-.inform{width: 150px; margin-bottom: 20px; margin-right: 20px; text-align: center; display: inline-block;}
-.information_box .logo_green{padding-top: -10px; padding-left: 10px;}
-.information_box p{font-size: 13px; color: white; margin: 5px; }
+#information{width: 100%; height: 550px; background-color: #289f5d; margin: 0 auto;}
+.information_box{width: 100%; height: 550px; display: flex; justify-content: space-around; align-items: center; align-content: center; flex-flow: row wrap; margin-right: 10%;}
+.inform{width: 150px; margin-bottom: 5%; margin-right: 13%; text-align: center; display: inline-block;}
+.information_box .logo_green{margin-bottom: 15%;}
+.information_box p{font-size: 13px; color: white; margin: 5%; }
 .inform span{font-size: 20px; color: gold; font-weight: 700;}
 
 
