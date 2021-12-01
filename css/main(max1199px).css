@@ -53,36 +53,36 @@ header.fixed{background: #74b243; position:fixed; width: 100%;}
 
 #recipe_index_background{width: 100%; height: 250px; margin: 0 auto;}
 .recipe_index{width: 100%; height: 250px; margin: 0 auto; padding: 30px 0;}
-.recipe_index h2{margin: 0 0 0 50px;}
+.recipe_index h2{margin-left: 43.3%;}
 .recipe_iconbox{width: 100%; height: 150px; position:relative; padding: 10px 0;}
 .recipe_iconbox>img{position: absolute; top: 0; bottom:0; margin: auto 0; cursor:pointer;}
 .icon_right{right:0;}
 
 
-#slidewrap{width: 100%; height: 130px; padding: 20px 0; overflow:hidden;}
+#slidewrap{width: 93%; height: 130px; padding: 20px 0; overflow:hidden;}
 .slide{width: 2200px; height: 100%;}
 .slide .list{width: 110px; height: 92px; float:left; display: flex; justify-content:center; align-content: center; align-items: center; flex-direction: column; padding: 20px;}
 .slide .list img{width: 66px; height: 66px; cursor: pointer; margin-bottom: 5px;}
 .slide .list img:hover{transform:scale(1.05); transition: all 0.2s ease-in-out;}
 
 
-#bestcook_background{width: 100%; height: 130px; background-color: rgb(250, 250, 250);}
-.bestcook{width: 100%; height: 130px; background-color: rgb(250, 250, 250); margin: 0 auto;}
-.bestcook h2{margin-top: 7%; padding-left: 50px; display: inline-block;}
-.bestcook .date{padding-top: 70px; padding-left: 5px; color: #666; font-weight: 300;}
+#bestcook_background{width: 100%; height: 95px; background-color: rgb(250, 250, 250);}
+.bestcook{width: 100%; height: 95px; background-color: rgb(250, 250, 250); margin: 0 auto;}
+.bestcook h2{margin-top: 5%; margin-left: 43%; display: block;}
+.bestcook .date{margin-top: 35%; margin-left: 41%; color: #666; font-weight: 300;}
 
-.calender{float: right; margin-right: 50px; margin-top: 75px;}
+.calender{float: right; margin-right: 5%; margin-top: 8.5%;}
 .calender input{border: 2px solid #eee; border-radius: 3px;}
 .calender span{font-size: 14px; display: inline-block; margin-right: 10px; color: #666;}
 .calender button{width: 50px; height: 22px; text-align: center; border: none; color: #666; cursor:pointer;} 
 
-#ranking_topline{width: 1000px; height: 10px; border-top: 4px solid #74b243; margin: 0 auto;}
+#ranking_topline{width: 90%; height: 10px; border-top: 4px solid #74b243; margin: 0 auto;}
 
 
 #ranking_sub_background{width: 100%; height: auto; background-color: rgb(250, 250, 250); margin: 70px auto;}
 .ranking_sub{width: 100%; height: auto; background-color: rgb(250, 250, 250); margin: 0 auto;}
 .ranking_sub_box{width: 100%; height: auto; background-color: rgb(250, 250, 250); display: flex; flex-flow: row wrap; justify-content: center;}
-.ranking_sub_box div{width: 300px; height: auto; background-color: white; margin: 10px 18px; border-radius: 3px; box-shadow: 0 0 50px rgb(223, 223, 223); position:relative;}
+.ranking_sub_box div{width: 23%; height: auto; background-color: white; margin: 10px 18px; border-radius: 3px; box-shadow: 0 0 50px rgb(223, 223, 223); position:relative;}
 .ranking_sub_box div img{width: 100%; height: 180px; padding: 10px; background-position: center; background-size: cover;}
 .ranking_sub_box .star{width: 100px; height: 20px; background-color: rgb(250, 250, 250); margin-bottom: 30px; position: relative;}
 .ranking_sub_box .star>p{position:absolute; left: 90px; top: -6px; font-size: 10px; color: #666;}
@@ -107,16 +107,16 @@ header.fixed{background: #74b243; position:fixed; width: 100%;}
 .promotion_box h3{color: white; margin: 10px 55px; font-size: 23px; letter-spacing: -2px; font-weight: 300;}
 .promotion_box h1{color: white; font-size: 35px;  letter-spacing: -2px; line-height:50px; margin: 10px 50px; }
 .promotion_box h1 span{color: gold; font-size: 43px;}
-.promotion_box a div{width: 200px; height: 50px; margin: 0% 55% 10% 38%; border-radius: 50px; background-color: orangered; text-align: center; padding: 12px; color: white; opacity: 1;}
+.promotion_box a div{width: 200px; height: 50px; margin: 0% 55% 10% 41%; border-radius: 50px; background-color: orangered; text-align: center; padding: 12px; color: white; opacity: 1;}
 .promotion_box a div:hover{opacity: 0.8;}
 
 
 #honor_background{width: 100%; height: 550px; margin-top: 20px;}
 .honor_box{width: 100%; height: 550px; margin: 0 auto; position: relative; }
-.honor_box h2{padding: 50px 0 20px 50px;}
+.honor_box h2{padding: 3% 0 2% 37%;}
 .honor_box h2 span{color: #74b243;}
-.honor_topline{width: 1000px; height: 10px; border-top: 4px solid #74b243; margin: 0 auto;}
-.honor{width: 1000px; height: 400px; margin: 20px auto 0; overflow:hidden;}
+.honor_topline{width: 90%; height: 10px; border-top: 4px solid #74b243; margin: 0 auto;}
+.honor{width: 84.8%; height: 400px; margin: 20px auto 0; overflow:hidden;}
 #honorwrap{width: 2000px; height: 400px; padding-top: 50px; float:left; position: relative; }
 .honor_minibox{width: 240px; height: 400px; float:left; margin: 5px; cursor: pointer; box-shadow: 0 0 30px rgb(218, 218, 218);}
 .honor_minibox:hover{transform:scale(1.01); transition: all 0.2s ease-in-out;}
@@ -131,7 +131,7 @@ header.fixed{background: #74b243; position:fixed; width: 100%;}
 .chef_box{width: 100%; height: 600px; margin: 0 auto;}
 .chef_box h2{margin-top: 3%; margin-left: 45%;}
 .chef_box span{padding-top: 1%; padding-left: 40%; color: #666; font-weight: 300; display: block;}
-.chef_topline{width: 1000px; height: 10px; border-top: 4px solid #74b243; margin: 0 auto; margin-top: 20px;}
+.chef_topline{width: 90%; height: 10px; border-top: 4px solid #74b243; margin: 0 auto; margin-top: 20px;}
 .chef{width: 100%; height: 400px; display:flex; flex-flow: row wrap; margin-top: 50px;}
 .chef a{width: 20%; height: 350px; position: relative;}
 .chef div{width: 100%; height: 350px; border-radius: 10px; background-size: cover; background-position: center; box-shadow: 0 0 30px rgb(218, 218, 218); position: absolute;}
@@ -139,8 +139,8 @@ header.fixed{background: #74b243; position:fixed; width: 100%;}
 .chef_textbox{float:left; width:100%; height:100%; background-color:black; position:absolute; top: 0; left: 0; opacity: 0;}
 .chef_textbox:hover {opacity:0.7; transition: all 0.3s ease;}
 
-.chef_textbox>span{color:white; font-weight: bold; font-size: 18px; position: absolute; top: 38%; right: 30%; display: inline-block; text-align: center; width:100%;}
-.chef_textbox img{width: 40px; height: 40px; margin-top:90%; margin-left: 40%; position:absolute;}
+.chef_textbox p{color:white; font-weight: bold; font-size: 18px; position: absolute; top: 41%; left: 23%; display: inline-block; width:100%;}
+.chef_textbox img{width: 40px; height: 40px; position:absolute; top: 50%; left: 40%;}
 
 
 
