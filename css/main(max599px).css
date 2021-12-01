@@ -9,6 +9,7 @@ ul, ol, li{list-style: none;}
 a{text-decoration: none; color:#666;}
 
 body{background-color: rgb(250, 250, 250); font-family: 'Noto Sans KR', sans-serif;}
+/* body::-webkit-scrollbar{display: none;} */
 
 header{width: 100%; height: 70px; position:absolute; line-height:50px; transition: 0.5s ease-in-out; z-index: 10;}
 header.fixed{background: #74b243; position:fixed; width: 100%;}
@@ -48,7 +49,7 @@ img {cursor: pointer;}
 
 .notice{width:100%; height:50px; overflow:hidden; margin-top: 20px;}
 .rolling{position:relative; width:100%; height:auto;}
-.rolling li{width: 100%; height:50px; line-height:50px; margin-left: 45%;}
+.rolling li{ height:50px; line-height:50px; margin-left: 45%;}
 .rolling li a{color:white;}
 .word{color:white; float: left; margin-left: 23%; font-size: 16.5px; margin-top: 13px; font-family: 'Noto Sans KR', sans-serif;}
 
@@ -156,15 +157,16 @@ img {cursor: pointer;}
 
 
 
-#information{width: 100%; height: 550px; background-color: #289f5d; margin: 0 auto;}
-.information_box{width: 100%; height: 550px; display: flex; justify-content: space-around; align-items: center; align-content: center; flex-flow: row wrap; margin-right: 10%;}
+#information{width: 100%; height: 550px; background-color: #289f5d;}
+.information_box{width: 100%; height: 550px; display: flex; justify-content: space-around; align-items: center; align-content: center; flex-flow: row wrap; margin-left: 5%;}
 .inform{width: 150px; margin-bottom: 5%; margin-right: 13%; text-align: center; display: inline-block;}
-.information_box .logo_green{margin-bottom: 15%;}
-.information_box p{font-size: 13px; color: white; margin: 5%; }
+.information_box a{margin: 0 0 5% 17%; padding-right: 1%;}
+.information_box .logo_green{margin: 0 0 0 -50%;}
+.information_box p{font-size: 13px; color: white; margin: 5% auto;}
 .inform span{font-size: 20px; color: gold; font-weight: 700;}
 
 
-footer{width: 100%; height: 600px; background-color: #74b243; margin: 0a auto;}
+footer{width: 100%; height: 600px; background-color: #74b243; margin: 0 auto;}
 .footer_box{width: 100%; height: 600px; margin: 0 auto;}
 .footer_left{width: 100%; height: 300px; padding: 30px; display:flex; flex-direction: column;}
 .footer_box span{font-family: 'Jua', sans-serif; font-size: 23px;  color: #fff; margin: 0 auto;}
