@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>요리를 즐겁게-만개의 레시피-</title>
+
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/sub.css">
+  <link rel="stylesheet" href="css/font.css">
+
+  <link href="img\pabicon.ico" rel="shortcut icon" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" 
+  rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+<body>
+  <header>
+    <div id="headerbackground">
+      <div class="header_top">
+          <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+          <div class="menupic"><img src="img/icon_menu.png" alt="icon_menu" onclick="openNav()"></div>
+          <nav class="menu">
+            <ul>
+              <li><a href="#">요리 레시피</a></li>
+              <li><a href="#">요리 클래스</a></li>
+              <li><a href="#">요리 매거진</a></li>
+              <li><a href="#">오늘의 요리</a></li>
+            </ul>
+          </nav>
+      </div>
+    </div>
+</header>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#"><img src="img/icon_memo.png" alt="memo" width="35" height="35"> 요리 레시피</a>
+    <a href="#"><img src="img/icon_bestcook.png" alt="icon_bestcook" width="50" height="50"> 요리 클래스</a>
+    <a href="#"><img src="img/icon_recipe_white.png" alt="icon_recipe_white" widht="40" height="40"> 요리 매거진</a>
+    <a href="#"><img src="img/icon_tray.png"alt="tray" widht="35" height="35"> 오늘의 요리</a>
+  </div>
+</div>
+
+
+    <div id="main_background">
+      <div class="main_textbox">
+        <div class="main_text">
+          <h1>만개의레시피</h1>
+          <div class="double_line"></div>
+          <p>700만 회원을 보유한 국내 1위 요리 사이트입니다.<br> '오늘은 뭘 해먹지? ' 라는 고민을 언제나 함께하는 만개의 레시피는 10만여 개 레시피 가운데 <br> 각자의 라이프스타일에 맞는 레시피를 쉽고 편리하게 찾을 수 있도록 서비스합니다.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="top_background">
+      <div class="top_box">
+        <div class="icon_text">
+          <img src="img/icon_memo_green.png" alt="icon_memo_green">
+          <span>요리레시피</span>
+          <p>국내 No.1 요리 사이트 '만개의레시피'<br>
+            10만 여개의 레시피로 초간단 요리에서 일품 요리까지.<br>
+            요리초보도 쉽게 해먹을 수 있는 집밥, 혼밥 요리도 가득합니다.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  <div id="recipes_background">
+    <div class="recipes_box">
+      <div class="recipes_box_left">
+        <div class="left_box">
+          <p>된장찌개 황금 레시피</p>
+          <p>속초바닷가</p>
+        </div>
+        <div class="left_box">
+          <p>기사식당st 제육 레시피</p>
+        </div>
+        <div class="left_box">
+          백선생 초간단 나물 된장 무침
+        </div>
+        <div class="left_box">
+          장어덮밥 홀릭 양념 만드는 법
+        </div>
+        <div class="left_box">
+          엄마의 레시피, 경양식 돈까쓰
+        </div>
+      </div>
+      <div class="recipes_box_right">
+        <div class="right_box"></div>
+        <div class="right_box"></div>
+        <div class="right_box"></div>
+        <div class="right_box"></div>
+        <div class="right_box"></div>
+      </div>
+      <div class="look">
+        <span>내가 본 레시피</span>
+      </div>
+    </div>
+  </div>
+
+
+
+    <footer>
+    <div class="footer_box">
+      <div class="footer_left">
+        <span>TO. 만개의레시피</span>
+        <textarea name="opinion" cols="50" rows="10"
+          placeholder="불편사항이나 제안사항이 있으신가요? &#13;&#10;만개의레시피에 전하고 싶은 의견을 남겨주세요."></textarea>
+        <button class="send">의견보내기</button>
+      </div>
+      <div class="footer_textbox">
+      <ul>
+        <a href="index.html"><li><b>회사소개</b> | <b>광고문의</b> | <b>개인정보처리방침</b> | <b>이용약관</b> | <b>고객센터</b> </li></a>
+        <br>
+        <li> 대표 : 이인경 / E : help@10000recipe.com / F : 02) 323-5049 </li>
+        <li> 서울 금천구 가산동 371-50 에이스하이엔드타워 3차 1106-1호 </li>
+        <li> 문의전화(운영시간 평일 10:00~18:00) </li>
+        <li> 쇼핑문의(만개스토어) : 02-6953-4433 </li>
+        <li> 서비스 이용문의 : 070-4896-6416 </li>
+        <br>
+        <li> (주)이지에이치엘디 / 사업자등록번호 117-81-44101 / 통신판매업신고 </li>
+        <li> 제 2009-서울금천-0631호 / 벤처기업확인 / 사업자정보확인 </li>
+        <li> 서울지방중소기업청 제 031134233-1-01643호</li>
+        <br>
+        <li><b>Copyright ©EZHLD Inc. All Rights Reserved</b></li>
+      </ul>
+    </div>
+    </div>
+  </footer>
+  
+  
+  <a href="index.html"><div id="extra_box"> First Recipe Since 2005 </div></a>
+</body>
+</html>

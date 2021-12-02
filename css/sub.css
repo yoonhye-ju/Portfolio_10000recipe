@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+#main_background{width: 100%; height: 400px; background-image: url(../img/subfood_black.jpg); background-size:cover; background-position: center; padding: 150px 0px;}
+.main_textbox{width:100%; height: 200px;}
+.main_text{width: 35%; height: 200px; margin: 0 auto;}
+.main_text h1{color: white; font-size: 35px; text-align: center; font-family: 'OTWelcomeBA';}
+.main_text .double_line{width: 50px; height: 10px;  margin: 15px auto 18px; border-bottom: 1px solid white;}
+.main_text p{color: white; font-size: 13px; text-align: center; margin: 0 auto; line-height: 25px;}
+
+
+#top_background{width: 100%; height: 280px; }
+.top_box{width: 30%; height: 280px; margin: 0 auto; padding-top: 60px;}
+.icon_text{height: 200px; text-align: center;}
+.icon_text img{width: 40px; height: 40px;}
+.icon_text span{font-size: 35px; color: #74b243; margin-top: 10px; display: block; font-family: 'SBAggroM';}
+.icon_text p{font-size: 13px; color: #666; margin-top: 15px; text-align: center; line-height: 25px; }
+
+
+#recipes_background{width: 100%; height: 2500px; background: indianred;}
+.recipes_box{width: 1200px; height: 2500px; background: cornflowerblue; margin: 0 auto; display: flex; justify-content: space-around;}
+.recipes_box_left{width: 250px; height: 2500px; float: left; background: darkblue; display: flex; justify-content: space-around; flex-flow: column wrap;}
+.left_box{width: 250px; height: 400px; background-color: darkkhaki; padding: 15px 15px 0 0;}
+.left_box>p:nth-of-type(1){text-align: right; font-size: 18px;}
+.left_box p:nth-of-type(2){font-weight: 100; font-size: 15px;}
+
+.recipes_box_right{width: 720px; height: 2500px; background: darkcyan; float: right; display: flex; justify-content: space-around; flex-flow: column wrap;}
+.right_box{width: 720px; height: 400px; background-color: darkkhaki;}
+.recipes_box .look{width: 150px; height: 250px; background-color: darkgoldenrod; margin-top: 50px; position: sticky; top: 100px; right: 0;}
+.recipes_box .look>span{text-align: center;}

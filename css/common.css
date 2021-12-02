@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+*{margin:0; padding: 0; box-sizing: border-box;}
+ul, ol, li{list-style: none;}
+a{text-decoration: none; color:#666;}
+
+body{background-color: rgb(250, 250, 250); font-family: 'Noto Sans KR', sans-serif; }
+
+header{width: 100%; height: 70px; position:absolute; line-height:50px; transition: 0.5s ease-in-out; z-index: 100;}
+header.fixed{background: #74b243; position:fixed;}
+
+#headerbackground{width: 1200px; height: 70px; margin: 0 auto;}
+.header_top{display: flex; justify-content: space-around; align-content: center; align-items: center;}
+.menupic{display: none;}
+.logo{padding: 10px;}
+
+.menu ul{display: flex; justify-content: space-around; align-content: center; align-items: center; margin-bottom: 20px;}
+.menu>ul>li>a{font-size: 17px; color: white; padding: 50px;}
+.menu>ul>li>a:hover{text-shadow: 0 0 8px white;}
+.menu a.txtCh{color:white;}
+
+#myNav{display: none;}
+
+
+footer{width: 100%; height: 300px; background-color: #74b243;}
+.footer_box{width: 1200px; height: 300px; margin: 0 auto; position: relative;}
+.footer_left{width: 600px; height: 300px; float: left; position:relative;}
+.footer_box span{font-family: 'Jua', sans-serif; position:absolute; font-size: 23px; left: 220px;padding: 20px 0; color: #fff;}
+textarea{background-color: #eee; border-radius: 10px; border: 2px solid #eee; margin-top: 70px; margin-left: 120px;}
+textarea::placeholder{padding: 10px; font-family: 'Noto Sans KR', sans-serif; color: #666; font-size: 13px;}
+.send{width: 350px; height: 30px; position: absolute; top: 230px; left: 125px; border:none; color: #666; border-radius: 3px; background: white; cursor: pointer; margin-top: 8px; margin-left: 5px;}
+.footer_textbox{width: 600px; height: 300px; float: right; padding-top: 23px; padding-left: 80px;}
+.footer_textbox ul li{line-height: 18px; font-size: 12px; color: white;}
+
+#extra_box{width: 1200px; height: 60px; margin: 0 auto; text-align: center; padding: 16px; font-size: 18px; font-family: 'Anton', sans-serif; color: rgb(161, 161, 161); letter-spacing: 3px; background-color: rgb(250, 250, 250);}
