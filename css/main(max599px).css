@@ -56,7 +56,7 @@ img {cursor: pointer;}
 
 .main_login_background{width: 100%; margin-top: 100px; margin-left: -15px;}
 .main_login{width: 100%; display: flex; justify-content: space-around; flex-direction: column;}
-.loginbox{width: 300px; height: 200px; text-align: center; padding: 20px; color: white; line-height: 30px; margin-left: 22%; margin-bottom: 30px;}
+.loginbox{width: 61%; height: 200px; text-align: center; padding: 20px; color: white; line-height: 30px; margin-left: 22%; margin-bottom: 30px;}
 .loginbox h4{font-weight: 300; font-size: 13px;}
 .loginbox:hover{box-shadow: 0 0 5px black; border: 2px solid white; border-radius: 10px;}
 
