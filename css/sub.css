@@ -19,8 +19,8 @@
 #recipes_background{width: 100%; height: 2500px; background: indianred;}
 .recipes_box{width: 1200px; height: 2500px; background: cornflowerblue; margin: 0 auto; display: flex; justify-content: space-around;}
 .recipes_box_left{width: 250px; height: 2500px; float: left; background: darkblue; display: flex; justify-content: space-around; flex-flow: column wrap;}
-.left_box{width: 250px; height: 400px; background-color: darkkhaki; padding: 15px 15px 0 0;}
-.left_box>p:nth-of-type(1){text-align: right; font-size: 18px;}
+.left_box{width: 250px; height: 400px; background-color: darkkhaki; padding: 15px 15px 0 0; text-align: right; }
+.left_box>p:nth-of-type(1){font-size: 18px;}
 .left_box p:nth-of-type(2){font-weight: 100; font-size: 15px;}
 
 .recipes_box_right{width: 720px; height: 2500px; background: darkcyan; float: right; display: flex; justify-content: space-around; flex-flow: column wrap;}
