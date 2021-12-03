@@ -4,8 +4,8 @@
 .main_textbox{width:100%; height: 200px;}
 .main_text{width: 35%; height: 200px; margin: 0 auto;}
 .main_text h1{color: white; font-size: 35px; text-align: center; font-family: 'OTWelcomeBA';}
-.main_text .double_line{width: 50px; height: 10px;  margin: 15px auto 18px; border-bottom: 1px solid white;}
-.main_text p{color: white; font-size: 13px; text-align: center; margin: 0 auto; line-height: 25px;}
+.main_text .double_line{width: 50px; height: 10px;  margin: 10px auto 18px; border-bottom: 1px solid white;}
+.main_text p{color: white; font-size: 13px; text-align: center; line-height: 25px; display: block; padding-top: 5px;}
 
 
 #top_background{width: 100%; height: 280px; }
@@ -13,17 +13,53 @@
 .icon_text{height: 200px; text-align: center;}
 .icon_text img{width: 40px; height: 40px;}
 .icon_text span{font-size: 35px; color: #74b243; margin-top: 10px; display: block; font-family: 'SBAggroM';}
-.icon_text p{font-size: 13px; color: #666; margin-top: 15px; text-align: center; line-height: 25px; }
+.icon_text p{font-size: 13px; color: #666; margin-top: 20px; text-align: center; line-height: 25px;}
 
 
-#recipes_background{width: 100%; height: 2500px; background: indianred;}
-.recipes_box{width: 1200px; height: 2500px; background: cornflowerblue; margin: 0 auto; display: flex; justify-content: space-around;}
-.recipes_box_left{width: 250px; height: 2500px; float: left; background: darkblue; display: flex; justify-content: space-around; flex-flow: column wrap;}
-.left_box{width: 250px; height: 400px; background-color: darkkhaki; padding: 15px 15px 0 0; text-align: right; }
-.left_box>p:nth-of-type(1){font-size: 18px;}
-.left_box p:nth-of-type(2){font-weight: 100; font-size: 15px;}
+#recipes_background{width: 100%; height: 2500px;}
+.recipes_box{width: 1200px; height: 2500px; margin: 0 auto; display: flex; justify-content: space-around;}
+.recipes_box_left{width: 250px; height: 2500px; float: left;display: flex; justify-content: space-around; flex-flow: column wrap;}
+.left_box{width: 250px; height: 400px; padding: 15px 15px 0 0; text-align: right;}
+.left_box>p{font-size: 18px;}
+
+.nicname{margin-top: 8px;}
+.nicname>p{display: inline-block; font-weight: 100; font-size: 15px; margin-top: 11.5px; margin-right: 6px;}
+.nicname img{float: right; margin-top: 13px;}
+
+.update{margin-top: 3px;}
+.update>p{display: inline-block; font-weight: 100; font-size: 15px; margin-top: 11.5px; margin-right: 6px;}
+.update img{float: right; margin-top: 13px;}
+
+.view{margin-top: 3px;}
+.view>p{display: inline-block; font-weight: 100; font-size: 15px; margin-top: 11.5px; margin-right: 6px;}
+.view img{float: right; margin-top: 13px;}
+
+.comment{margin-top: 3px;}
+.comment>p{display: inline-block; font-weight: 100; font-size: 15px; margin-top: 11.5px; margin-right: 6px;}
+.comment img{float: right; margin-top: 13px;}
+
 
 .recipes_box_right{width: 720px; height: 2500px; background: darkcyan; float: right; display: flex; justify-content: space-around; flex-flow: column wrap;}
 .right_box{width: 720px; height: 400px; background-color: darkkhaki;}
-.recipes_box .look{width: 150px; height: 250px; background-color: darkgoldenrod; margin-top: 50px; position: sticky; top: 100px; right: 0;}
-.recipes_box .look>span{text-align: center;}
+.right_box img{width: 720px; height: 250px;}
+
+
+.recipes_box .look{width: 150px; height: 250px; background-color: whitesmoke; margin-top: 50px; position: sticky; top: 100px; right: 0; border-radius: 5px; box-shadow: 0 0 10px #666;}
+.recipes_box .look>img{width: 150px; height: 150px; background-size:cover; background-position: center; padding: 10px; cursor: pointer;}
+.recipes_box .look p{font-size: 12px; color: #666; margin: 5px 20px 0 30px;}
+.look .sns{display: flex; margin: 10px 0px 0px 20px;}
+.look .sns img{width: 23px; height: 23px; margin: 3px; cursor: pointer;}
+.recipes_box .look span{margin: 23px;}
+
+
+#pagination_background{width: 100%; height: 80px;}
+.pagination_box{width: 1200px; height: 80px; margin: 0 auto;}
+.pagination{width: 720px; height: 80px; float: right; margin-right: 190.3px;}
+.pagination_list{display: flex; justify-content: center; align-items: center; margin-top: 20px;}
+.pagination_list li{display: block; font-size: 14px; padding: 5px 15px;}
+.pagination_list a:hover{color: #74b243;}
+.pagination_first{margin-right: 10px;}
+.pagination_last{margin-left: 10px;}
+.pagination_now{width: 30px; height: 30px; border-radius: 50px; background-color: #74b243; color: white;}
+.pagination_list .pagination_page:active{width: 30px; height: 30px; background-color: #74b243; border-radius: 50px; color: white;}
+
