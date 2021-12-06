@@ -16,10 +16,10 @@
 .icon_text p{font-size: 13px; color: #666; margin-top: 20px; text-align: center; line-height: 25px;}
 
 
-#recipes_background{width: 100%; height: 2500px;}
-.recipes_box{width: 1200px; height: 2500px; margin: 0 auto; display: flex; justify-content: space-around;}
-.recipes_box_left{width: 250px; height: 2500px; float: left;display: flex; justify-content: space-around; flex-flow: column wrap;}
-.left_box{width: 250px; height: 400px; padding: 15px 15px 0 0; text-align: right;}
+#recipes_background{width: 100%; height: 2800px;}
+.recipes_box{width: 1200px; height: 2800px; margin: 0 auto; display: flex; justify-content: space-around;}
+.recipes_box_left{width: 180px; height: 2800px; float: left;display: flex; justify-content: space-around; flex-flow: column wrap;}
+.left_box{width: 180px; height: 500px; text-align: right;}
 .left_box>p{font-size: 18px;}
 
 .nicname{margin-top: 8px;}
@@ -39,12 +39,45 @@
 .comment img{float: right; margin-top: 13px;}
 
 
-.recipes_box_right{width: 720px; height: 2500px; background: darkcyan; float: right; display: flex; justify-content: space-around; flex-flow: column wrap;}
-.right_box{width: 720px; height: 400px; background-color: darkkhaki;}
-.right_box img{width: 720px; height: 250px;}
+.recipes_box_right{width: 600px; height: 2800px; background: darkcyan; float: right; display: flex; justify-content: space-around; flex-flow: column wrap; margin-right: 30px;}
+.right_box{width: 600px; height: 500px; background-color: darkkhaki;}
+.right_box h2{padding: 10px;}
+.right_box p{padding: 10px; margin-top:-10px; font-weight: 300; font-size: 15px; line-height: 25px;}
+.right_box img{width: 600px; height: 250px;}
+
+.time{width:100%; height: 100px; background-color: darkmagenta; display: flex; margin-top: 5px;}
+.timebox{width: 100px; height: 100px; background-color: darkorange; margin-left: 10px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.timebox>img{width: 40px; height: 40px;}
+.timebox p{font-size: 13px; display: inline-block; margin-top: -5px;}
 
 
-.recipes_box .look{width: 150px; height: 250px; background-color: whitesmoke; margin-top: 50px; position: sticky; top: 100px; right: 0; border-radius: 5px; box-shadow: 0 0 10px #666;}
+.recipes_box_side{width: 250px; height: 2770px; margin-top: 30px;}
+.recipe_search{width: 100%; height: 60px; background-color:#289f5d; display: inline-block; display: flex; justify-content: center; align-content: center; align-items: center;}
+.recipe_search input{width: 200px; height: 30px; padding: 5px; border:none;}
+.recipe_search img{margin-left: 4px; cursor: pointer;}
+.recipes_box_tags{width: 100%; height: 250px; margin-top: 50px; padding: 0 10px;}
+.recipes_box_tags>h2{color: #289f5d;}
+.recipes_box_tags span{display:inline-block; width: auto; margin-top: 5px; margin-right: 8px; border: 2px solid #289f5d; padding: 5px 5px; border-radius: 5px; background-color: white; color: #289f5d; font-size: 13px;}
+.recipes_box_tags span:hover{background-color: #289f5d; color:white; cursor: pointer;}
+.tags{width: 100%; height: 30px; display: flex; align-items: center; margin-top: 13px; padding: 5px;}
+.recipes_box_tags h5{color: #289f5d; cursor: pointer;}
+.recipes_box_tags .right_green{display: inline-block;}
+
+
+.recipes_box_recent{width: 100%; height: 400px; padding: 0 10px;}
+.recipes_box_recent>h2{color: #289f5d;}
+.recent_box{width: 100%; height: 300px; display: flex; justify-content: space-around; flex-direction: column; align-items: center; margin-top: 10px; cursor: pointer;}
+
+.recent_food{display:flex; width: 100%; height: 90px;}
+.recent_food img:hover{opacity: 0.9;}
+.recent_food span{font-weight: 300; font-size: 13px; display: inline-block; padding: 5px;}
+.recent_post{width: 100%; height: 30px; display: flex; align-items: center; margin-top: 13px; padding: 5px;}
+.recent_post h5{color: #289f5d; cursor: pointer;}
+.recent_post .right_green{display: inline-block;}
+
+
+
+.recipes_box .look{width: 150px; height: 250px; background-color: whitesmoke; margin: 50px auto 0; position: sticky; top: 100px; right: 0; border-radius: 5px; box-shadow: 0 0 10px #666;}
 .recipes_box .look>img{width: 150px; height: 150px; background-size:cover; background-position: center; padding: 10px; cursor: pointer;}
 .recipes_box .look p{font-size: 12px; color: #666; margin: 5px 20px 0 30px;}
 .look .sns{display: flex; margin: 10px 0px 0px 20px;}
@@ -52,14 +85,14 @@
 .recipes_box .look span{margin: 23px;}
 
 
-#pagination_background{width: 100%; height: 80px;}
-.pagination_box{width: 1200px; height: 80px; margin: 0 auto;}
-.pagination{width: 720px; height: 80px; float: right; margin-right: 190.3px;}
-.pagination_list{display: flex; justify-content: center; align-items: center; margin-top: 20px;}
-.pagination_list li{display: block; font-size: 14px; padding: 5px 15px;}
+#pagination_background{width: 100%; height: 100px;}
+.pagination_box{width: 1200px; height: 100px; margin: 0 auto;}
+.pagination{width: 600px; height: 100px; float: right; margin-right: 351px;}
+.pagination_list{display: flex; justify-content: center; align-items: center; margin-top: 25px;}
+.pagination li span{display:inline-block; width: 20px; height: 20px; background-color: #74b243; border-radius: 50%; text-align: center;}
+.pagination_list li{display: block; font-size: 14px; padding: 5px 12px;}
 .pagination_list a:hover{color: #74b243;}
-.pagination_first{margin-right: 10px;}
-.pagination_last{margin-left: 10px;}
+.pagination_first{margin-right: 3px;}
+.pagination_last{margin-left: 3px;}
 .pagination_now{width: 30px; height: 30px; border-radius: 50px; background-color: #74b243; color: white;}
-.pagination_list .pagination_page:active{width: 30px; height: 30px; background-color: #74b243; border-radius: 50px; color: white;}
 
