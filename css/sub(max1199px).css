@@ -1,16 +1,16 @@
 @charset "utf-8";
-@media(min-width: 1200px){
+@media(min-width: 951px) and (max-width:1199px){
 
 #main_background{width: 100%; height: 400px; background-image: url(../img/subfood_black.jpg); background-size:cover; background-position: center; padding: 150px 0px;}
 .main_textbox{width:100%; height: 200px;}
-.main_text{width: 35%; height: 200px; margin: 0 auto;}
+.main_text{width: 30%; height: 200px; margin: 0 auto;}
 .main_text h1{color: white; font-size: 35px; text-align: center; font-family: 'OTWelcomeBA';}
 .main_text .double_line{width: 50px; height: 10px;  margin: 10px auto 18px; border-bottom: 1px solid white;}
 .main_text p{color: white; font-size: 13px; text-align: center; line-height: 25px; display: block; padding-top: 5px;}
 
 
 #top_background{width: 100%; height: 280px; }
-.top_box{width: 30%; height: 280px; margin: 0 auto; padding-top: 60px;}
+.top_box{width: 100%; height: 280px; margin: 0 auto; padding-top: 60px;}
 .icon_text{height: 200px; text-align: center;}
 .icon_text img{width: 40px; height: 40px;}
 .icon_text span{font-size: 35px; color: #74b243; margin-top: 10px; display: block; font-family: 'SBAggroM';}
@@ -18,9 +18,10 @@
 
 
 #recipes_background{width: 100%; height: 2800px;}
-.recipes_box{width: 1200px; height: 2800px; margin: 0 auto; display: flex; justify-content: space-around;}
-.recipes_box_left{width: 180px; height: 2800px; float: left;display: flex; justify-content: space-around; flex-flow: column wrap;}
-.left_box{width: 180px; height: 500px; text-align: right;}
+.recipes_box{width: 100%; height: 2800px; margin: 0 auto; display: flex; justify-content: space-around;}
+
+.recipes_box_left{width: 15%; height: 2800px; float: left; display: flex; justify-content: space-around; flex-flow: column wrap;}
+.left_box{width: 100%; height: 500px; text-align: right;}
 .left_box>p{font-size: 18px; color: rgb(68, 68, 68);}
 
 .nicname{margin-top: 5px;}
@@ -40,12 +41,12 @@
 .comment img{float: right; margin-top: 13px;}
 
 
-.recipes_box_right{width: 600px; height: 2800px; display: flex; justify-content: space-around; flex-flow: column wrap; margin-right: 30px;}
-.right_box{width: 600px; height: 500px;}
+.recipes_box_right{width: 50%; height: 2800px; display: flex; justify-content: space-around; flex-flow: column wrap;}
+.right_box{width: 100%; height: 500px;}
 .right_box h2{padding: 30px 10px 10px 10px; font-family: 'OTWelcomeBA'; color: rgb(68, 68, 68);}
 .right_box h2:hover{color: #289f5d; cursor: pointer;}
 .right_box p{padding: 15px; margin-top:-15px; font-weight: 300; font-size: 15px; line-height: 25px; color: #666;}
-.right_box img{width: 600px; height: 250px;}
+.right_box img{width: 100%; height: 250px;}
 .right_box img:hover{cursor: pointer; opacity: 0.8;}
 
 
@@ -60,15 +61,13 @@
 .pic_icon p{display: inline-block; font-weight: 500; font-size: 13px; color: #289f5d; line-height: 10px;}
 
 
-
-
-.recipes_box_side{width: 250px; height: 2770px; margin-top: 30px;}
+.recipes_box_side{width: 25%; height: 2770px; margin-top: 30px;}
 .recipe_search{width: 100%; height: 60px; background-color:#289f5d; display: inline-block; display: flex; justify-content: center; align-content: center; align-items: center;}
-.recipe_search input{width: 200px; height: 30px; padding: 5px; border:none;}
+.recipe_search input{width: 80%; height: 30px; padding: 5px; border:none;}
 .recipe_search img{margin-left: 4px; cursor: pointer;}
 .recipes_box_tags{width: 100%; height: 250px; margin-top: 50px; padding: 0 10px;}
 .recipes_box_tags>h2{color: #289f5d; font-family: 'OTWelcomeBA';}
-.recipes_box_tags span{display:inline-block; width: auto; margin-top: 5px; margin-right: 8px; border: 2px solid #289f5d; padding: 5px 5px; border-radius: 5px; background-color: white; color: #289f5d; font-size: 13px;}
+.recipes_box_tags span{display:inline-block; width: auto; border: 2px solid #289f5d; border-radius: 5px; background-color: white; color: #289f5d; font-size: 13px;}
 .recipes_box_tags span:hover{background-color: #289f5d; color:white; cursor: pointer;}
 .tags{width: 100%; height: 30px; display: flex; align-items: center; margin-top: 13px; padding: 5px;}
 .recipes_box_tags h5{color: #289f5d; cursor: pointer;}
@@ -81,8 +80,8 @@
 
 .recent_food{display:flex; width: 100%; height: 90px;}
 .recent_food img:hover{opacity: 0.9;}
-.recent_food span{font-weight: 300; font-size: 13px; display: inline-block; padding: 5px;}
-.recent_post{width: 100%; height: 30px; display: flex; align-items: center; margin-top: 13px; padding: 5px;}
+.recent_food span{font-weight: 300; font-size: 13px; display: inline-block; padding: 5%;}
+.recent_post{width: 100%; height: auto; display: flex; align-items: center; margin-top: 13px; padding: 5px;}
 .recent_post h5{color: #289f5d; cursor: pointer;}
 .recent_post .right_green{display: inline-block;}
 
@@ -98,11 +97,11 @@
 
 
 #pagination_background{width: 100%; height: 100px;}
-.pagination_box{width: 1200px; height: 100px; margin: 0 auto;}
-.pagination{width: 600px; height: 100px; float: right; margin-right: 351px;}
-.pagination_list{display: flex; justify-content: center; align-items: center; margin-top: 25px;}
+.pagination_box{width: 100%; height: 100px;}
+.pagination{width: 600px; height: 100px;  display: flex; align-items: center; align-content: center; margin: -10px auto;}
+.pagination_list{display: flex; justify-content: center; align-items: center;}
 .pagination li span{display:inline-block; width: 20px; height: 20px; background-color: #74b243; border-radius: 50%; text-align: center;}
-.pagination_list li{display: block; font-size: 14px; padding: 5px 12px;}
+.pagination_list li{display: block; font-size: 14px; padding: 5px 8.5px;}
 .pagination_list a:hover{color: #74b243;}
 .pagination_first{margin-right: 3px;}
 .pagination_last{margin-left: 3px;}
