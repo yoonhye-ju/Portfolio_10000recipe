@@ -5,7 +5,7 @@
 
 #main_background{width: 100%; height: auto; background-image: url(../img/mainfood_black.jpg); background-position: center; background-size: cover;}
 .main{width: 100%; height: auto; margin: 0 auto;}
-.maintext{text-align: center; padding: 180px 0 0 0 ; display: flex; justify-content: center; align-content: center; align-items:center; flex-flow: row wrap; width: 100%;}
+.maintext{text-align: center; padding: 180px 0% 0% 0% ; display: flex; justify-content: center; align-content: center; align-items:center; flex-flow: row wrap; width: 100%;}
 .maintext h1{color: white; letter-spacing: 15px; font-size: 33px; font-family: 'Sunflower', sans-serif; margin: 10% auto -15%;}
 .maintext .search{width: 70%; height: 40px; border: none; border-radius: 20px; opacity: 0.6; font-size: 15px; margin: 100px 2% 0 0; padding-left: 15px;}
 .search:focus{outline: none;}
