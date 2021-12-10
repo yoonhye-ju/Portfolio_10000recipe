@@ -78,10 +78,10 @@
 .recipes_box_recent{width: 100%; height: 200px; padding: 0 10px;}
 .recipes_box_recent>h2{color: #289f5d; font-family: 'OTWelcomeBA'; padding-left: 5px;}
 .recent_box{width: 100%; height: 100px; display: flex; justify-content: space-around; flex-direction: row; align-items: center; margin-top: 10px; cursor: pointer;}
-.recent_food{display:flex; flex-direction: column; width: 100%; height: 90px;}
-.recent_food img{padding: 4%; width: 154px; height: 99px; background-position: center; background-size: cover;}
+.recent_food{display:flex; flex-direction: column; width: 33%; height: 90px;}
+.recent_food img{padding: 4%; width: 90%; height: 80px; background-position: center; background-size: cover;}
 .recent_food img:hover{opacity: 0.9;}
-.recent_food span{font-weight: 300; font-size: 13px; display: inline-block; padding: 4%;}
+.recent_food span{font-weight: 300; font-size: 13px; display: inline-block; padding: 4%; width: 90%;}
 .recent_post{width: 100%; height: auto; display: flex; align-items: center; margin-top: 18%; padding: 5px;}
 .recent_post h5{color: #289f5d; cursor: pointer;}
 .recent_post .right_green{display: inline-block;}

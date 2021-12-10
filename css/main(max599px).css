@@ -49,7 +49,7 @@
 .bestcook h2{margin: 10% 0 0 38%; display: block;}
 .bestcook .date{margin-top: 35%; margin-left: 33%; color: #666; font-weight: 300;}
 
-.calender{float: left; margin: 10% 0% 5% 10%;}
+.calender{float: left; margin: 10% 0% 5% 12%;}
 .calender input{border: 2px solid #eee; border-radius: 3px;}
 .calender span{font-size: 14px; display: inline-block; color: #666;}
 .calender button{width: 50px; height: 22px; text-align: center; border: none; color: #666; cursor:pointer;} 
