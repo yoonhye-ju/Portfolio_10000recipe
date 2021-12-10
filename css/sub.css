@@ -88,7 +88,7 @@
 
 
 
-.recipes_box .look{width: 150px; height: 250px; background-color: whitesmoke; margin-top: 30px; position: sticky; top: 100px; right: 0px; border-radius: 5px; box-shadow: 0 0 10px #666;}
+.recipes_box .look{width: 150px; height: 250px; background-color: whitesmoke; margin-top: 30px; position: sticky; top: 100px; right: 0px; margin-left: 3.5%; border-radius: 5px; box-shadow: 0 0 10px #666;}
 .recipes_box .look>img{width: 150px; height: 150px; background-size:cover; background-position: center; padding: 10px; cursor: pointer;}
 .recipes_box .look>img:hover{opacity:0.8;}
 .recipes_box .look p{font-size: 12px; color: #666; margin: 5px 20px 0 30px;}
