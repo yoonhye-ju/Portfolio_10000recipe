@@ -3,7 +3,7 @@
 
 #main_background{width: 100%; height: 400px; background-image: url(../img/subfood_black.jpg); background-size:cover; background-position: center; padding: 150px 0px;}
 .main_textbox{width:100%; height: 200px;}
-.main_text{width: 61%; height: 200px; margin: 0 auto;}
+.main_text{width: 80%; height: 200px; margin: 0 auto;}
 .main_text h1{color: white; font-size: 35px; text-align: center; font-family: 'OTWelcomeBA';}
 .main_text .double_line{width: 50px; height: 10px;  margin: 10px auto 18px; border-bottom: 1px solid white;}
 .main_text p{color: white; font-size: 13px; text-align: center; line-height: 25px; display: block; padding-top: 5px;}
