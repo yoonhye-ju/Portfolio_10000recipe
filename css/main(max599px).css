@@ -26,7 +26,7 @@
 .loginbox:hover{box-shadow: 0 0 5px black; border: 2px solid white; border-radius: 10px;}
 
 
-#extra{width: 100%; height: 10px; background-color: rgb(226, 226, 226);}
+.extra{width: 100%; height: 10px; background-color: rgb(226, 226, 226);}
 
 
 #recipe_index_background{width: 96%; height: 280px; margin: 0 auto;}
@@ -44,8 +44,8 @@
 .slide .list img:hover{transform:scale(1.05); transition: all 0.2s ease-in-out;}
 
 
-#bestcook_background{width: 100%; height: 100px; background-color: rgb(250, 250, 250);}
-.bestcook{width: 100%; height: 100px; background-color: rgb(250, 250, 250); margin: 0 auto;}
+#bestcook_background{width: 100%; height: 100px;}
+.bestcook{width: 100%; height: 100px; margin: 0 auto;}
 .bestcook h2{margin: 10% 0 0 38%; display: block;}
 .bestcook .date{margin-top: 35%; margin-left: 33%; color: #666; font-weight: 300;}
 
@@ -56,9 +56,9 @@
 
 #ranking_topline{width: 80%; height: 10px; border-top: 4px solid #74b243; margin: -3% auto;}
 
-#ranking_sub_background{width: 100%; height: auto; background-color: rgb(250, 250, 250); margin-top: 70px;}
-.ranking_sub{width: 100%; height: 3500px; background-color: rgb(250, 250, 250);}
-.ranking_sub_box{width: 100%; height: 3500px; background-color: rgb(250, 250, 250); display: flex; flex-flow: row wrap; justify-content: space-around;}
+#ranking_sub_background{width: 100%; height: auto; margin-top: 70px;}
+.ranking_sub{width: 100%; height: 3500px;}
+.ranking_sub_box{width: 100%; height: 3500px; display: flex; flex-flow: row wrap; justify-content: space-around;}
 .ranking_sub_box div{width: 60%; height: 400px; background-color: white; border-radius: 3px; box-shadow: 0 0 50px rgb(223, 223, 223); position: relative;}
 .ranking_sub_box div a>img{width: 100%; height: 60%; padding: 3% 5%; margin-top: 2%; background-position: center; background-size: cover;}
 .ranking_sub_box div img{padding: 3%; margin-top: 10%;}
