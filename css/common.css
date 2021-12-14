@@ -42,8 +42,12 @@ textarea{background-color: #eee; border-radius: 10px; border: 2px solid #eee; di
 textarea::placeholder{padding: 10px; font-family: 'Noto Sans KR', sans-serif; color: #666; font-size: 13px;}
 .send{width: 80%; height: 30px; border:none; color: #666; border-radius: 3px; background: white; cursor: pointer; margin: 8px auto 0;}
 .footer_textbox{width: 100%; height: 300px; float: right; padding-top: 5px; }
-.footer_textbox ul{width: 100%; margin: 0 auto; padding-left: 15px;}
+.footer_textbox ul{width: 100%; margin: 10px auto; padding-left: 15px;}
 .footer_textbox ul li{line-height: 18px; font-size: 12px; color: rgb(255, 255, 255);}
+
+.footer_textbox ul li:nth-of-type(1){margin-bottom: 20px;}
+.footer_textbox ul li:nth-of-type(6){margin-bottom: 20px;}
+.footer_textbox ul li:nth-of-type(9){margin-bottom: 20px;}
 
 #extra_box{width: 100%; height: 60px; margin: 0 auto; text-align: center; padding: 16px; font-size: 18px; font-family: 'Anton', sans-serif; color: rgb(161, 161, 161); letter-spacing: 3px; background-color: rgb(250, 250, 250);}
 }
@@ -92,6 +96,10 @@ textarea::placeholder{padding: 10px; font-family: 'Noto Sans KR', sans-serif; co
 .footer_textbox ul{width: 380px; margin: 0 auto; padding-left: 15px;}
 .footer_textbox ul li{line-height: 18px; font-size: 12px; color: white;}
 
+.footer_textbox ul li:nth-of-type(1){margin-bottom: 20px;}
+.footer_textbox ul li:nth-of-type(6){margin-bottom: 20px;}
+.footer_textbox ul li:nth-of-type(9){margin-bottom: 20px;}
+
 #extra_box{width: 100%; height: 60px; margin: 0 auto; text-align: center; padding: 16px; font-size: 18px; font-family: 'Anton', sans-serif; color: rgb(161, 161, 161); letter-spacing: 3px; background-color: rgb(250, 250, 250);}
 
 }
@@ -129,6 +137,11 @@ textarea::placeholder{padding: 10px; font-family: 'Noto Sans KR', sans-serif; co
 .footer_textbox ul{width: 100%; }
 .footer_textbox ul li{line-height: 18px; font-size: 12px; color: white;}
 
+.footer_textbox ul li:nth-of-type(1){margin-bottom: 20px;}
+.footer_textbox ul li:nth-of-type(6){margin-bottom: 20px;}
+.footer_textbox ul li:nth-of-type(9){margin-bottom: 20px;}
+
+
 #extra_box{width: 100%; height: 60px; margin: 0 auto; text-align: center; padding: 16px; font-size: 18px; font-family: 'Anton', sans-serif; color: rgb(161, 161, 161); letter-spacing: 3px; background-color: rgb(250, 250, 250);}
 }
 
@@ -163,6 +176,10 @@ textarea::placeholder{padding: 10px; font-family: 'Noto Sans KR', sans-serif; co
 .send{width: 350px; height: 30px; position: absolute; top: 230px; left: 125px; border:none; color: #666; border-radius: 3px; background: white; cursor: pointer; margin-top: 8px; margin-left: 5px;}
 .footer_textbox{width: 600px; height: 300px; float: right; padding-top: 23px; padding-left: 80px;}
 .footer_textbox ul li{line-height: 18px; font-size: 12px; color: white;}
+
+.footer_textbox ul li:nth-of-type(1){margin-bottom: 20px;}
+.footer_textbox ul li:nth-of-type(6){margin-bottom: 20px;}
+.footer_textbox ul li:nth-of-type(9){margin-bottom: 20px;}
 
 #extra_box{width: 1200px; height: 60px; margin: 0 auto; text-align: center; padding: 16px; font-size: 18px; font-family: 'Anton', sans-serif; color: rgb(161, 161, 161); letter-spacing: 3px; background-color: rgb(250, 250, 250);}
 
